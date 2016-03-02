@@ -119,6 +119,11 @@ footer .footer-col:nth-child(2) a:hover {
     color:white;
 }
 
+.full-why-attend-agenda2 .set-why-attend {
+	
+}
+
+
 h1 {
     color:white;
     font-size:52px;
@@ -337,7 +342,7 @@ footer .footer-col:nth-child(3) {
 .full-logos {
     height:50px;
     overflow:hidden;
-    margin-bottom:100px;
+    margin-bottom:50px;
 }
 
 .full-nav {
@@ -405,6 +410,10 @@ footer .footer-col:nth-child(3) {
     text-align:center;
     overflow:hidden;
     border-bottom:35px solid #E6E7E8;
+}
+
+full-why-attend-agenda2 {
+	background:white;
 }
 
 .full-why-attend-sf {
@@ -752,6 +761,7 @@ letter-spacing:3px;
 .set-why-attend-agenda {
     /*background-color:pink;*/
     overflow:hidden;
+	
 }
 
 .agenda-tables {
