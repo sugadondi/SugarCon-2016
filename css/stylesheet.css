@@ -381,7 +381,7 @@ footer .footer-col:nth-child(3) {
 }
 
 .full-travel-exhibitors {
-    background-color:#222;
+    background-color:#444;
     overflow:hidden;
     border-top:15px solid #F44336;
     padding-bottom:50px;
@@ -706,7 +706,9 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 
 .full-travel-exhibitors .travel-1 img {
     width:10%;
+	padding:0 30px;
     padding-bottom:10px;
+	vertical-align:middle;
 }
 
 .set-silver .why-attend-4 img {
