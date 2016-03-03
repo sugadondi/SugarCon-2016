@@ -1,165 +1,191 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-<link rel="icon" href="images/favicon.png">
-<link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script type="text/javascript" src="http://fast.fonts.net/jsapi/efeb9771-21e6-4e27-baae-42c9a7a84877.js"></script>
-
-
-
-<title>SugarCon 2016</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <script src="bower_components/jquery/dist/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="http://fast.fonts.net/jsapi/efeb9771-21e6-4e27-baae-42c9a7a84877.js">
+  </script>
+  <title>SugarCon 2016</title>
 </head>
-
-<body class="animated fadeIn">
-
-
+<body class="page-home animated fadeIn">
 <header class="full-nav">
-    <div class="mobile-nav">
-    <a href="index.html"><img src="images/sugarcon-logo-old.svg" alt="SugarCon 2016 logo"/></a>
-        <div class="menu-btn" id="menu-btn"><em class="fa fa-bars fa-fw"></em></div>
-    
-         <div class="responsive-menu">
-            <ul>
-            	<li><a href="index.html">HOME</a></li>
-            	<li><a href="agenda.html">AGENDA</a></li>
-                <li><a href="venue.html">VENUE</a></li>
-                <li><a href="sponsors.html">SPONSORS</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li class="red"><a href="https://www.etouches.com/145026">REGISTER</a></li>
-            </ul>
-         </div>
+  <div class="mobile-nav">
+    <a href="#top"><img src="images/sugarcon-logo-old.svg" alt="SugarCon 2016 logo" /></a>
+    <div class="menu-btn" id="menu-btn">
+      <em class="fa fa-bars fa-fw"></em>
     </div>
-
-
-    <div class="set-nav">
-        <div class="logodiv">
-            <a href="index.html"><img src="images/sugarcon-logo-old.svg" alt="SugarCon 2016 logo"/></a>
-        </div>   		
-        <div class="uldiv">
-            <ul class="ul">
-                <li><a class="current" href="index.html">HOME</a></li>
-                <li><a href="agenda.html">AGENDA</a></li>
-                <li><a href="venue.html">VENUE</a></li>
-                <li><a href="sponsors.html">SPONSORS</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a class="showontablet ghost-btn-green" href="https://www.etouches.com/145026">REGISTER</a></li>
-            </ul>
-        </div>
-        <div class="buttondiv">           
-            <a href="https://www.etouches.com/145026" class="ghost-btn-green">REGISTER</a>
-        </div>
+    <div class="responsive-menu">
+      <ul>
+        <li><a href="#top">HOME</a></li>
+        <li><a href="agenda">AGENDA</a></li>
+        <li><a href="venue">VENUE</a></li>
+        <li><a href="sponsors">SPONSORS</a></li>
+        <li><a href="faq">FAQ</a></li>
+        <li class="red"><a href="https://www.etouches.com/145026">REGISTER</a></li>
+      </ul>
     </div>
+  </div>
+  <div class="set-nav">
+    <div class="logodiv">
+      <a href="#top"><img src="images/sugarcon-logo-old.svg" alt="SugarCon 2016 logo" /></a>
+    </div>
+    <div class="uldiv">
+      <ul class="ul">
+        <li><a class="current" href="#top">HOME</a></li>
+        <li><a href="agenda">AGENDA</a></li>
+        <li><a href="venue">VENUE</a></li>
+        <li><a href="sponsors">SPONSORS</a></li>
+        <li><a href="faq">FAQ</a></li>
+        <li><a class="showontablet ghost-btn-green" href="https://www.etouches.com/145026">REGISTER</a></li>
+      </ul>
+    </div>
+    <div class="buttondiv">
+      <a href="https://www.etouches.com/145026" class="ghost-btn-green">REGISTER</a>
+    </div>
+  </div>
 </header>
-
 <section>
-	<div class="full-hero">
-    	<div class="set-hero">
-        	<h1><span style="font-size:24px;">June 13-16, San Francisco</span><br>Learn How To Make Every Customer Relationship <span style="font-family:'HelveticaB';">Extraordinary</span></h1>
-            <a href="https://www.etouches.com/145026" class="ghost-btn-white">REGISTER</a>
-            
-        </div>
-        
-        <a class="indexsugarcrm" href="http://sugarcrm.com"><img src="images/SugarCRM.png" alt="SugarCRM"></a>
+  <div class="full-hero">
+    <div class="set-hero">
+      <h1>
+        <span style="font-size:24px;">June 13-16, San Francisco</span><br>
+        Learn How To Make Every Customer Relationship <span style="font-family:'HelveticaB';">Extraordinary</span>
+      </h1>
+      <a href="https://www.etouches.com/145026" class="ghost-btn-white">REGISTER</a>
+      <div class="countdownwrapper">
+        Early Bird registration ends in<br>
+        <span id="countdown"></span>.<br>
+        This deadline will not be extended.<br>
+      </div>
     </div>
-    
-    <div class="full-why-attend">
-    	<div class="set-why-attend">
-        	<h2>Got customers? This is the conference for you.</h2>
-
-            <div class="why-attend-1">
-                <i class="fa fa-bullhorn"></i>
-                <br>
-            	<p>Hear from the world’s leading visionaries, industry observers, and software developers about how you can transform your business by building deeper customer relationships.</p>
-            </div>
-            <div class="why-attend-2">
-                <i class="fa fa-commenting"></i>
-                <br>
-            	<p>Learn, network and have some fun with the growing SugarCRM community.</p>
-            </div>
-            <div class="why-attend-1">
-                <i class="fa fa-newspaper-o"></i>
-                <br>
-            	<p>Be the first to hear about exciting new Sugar product advancements that push Sugar beyond the leading edge of CRM.</p>
-            </div>
-            <div class="why-attend-2">
-                <i class="fa fa-magic"></i>
-                <br>
-            	<p>Discover how to put these new technologies to use to drive growth, improve efficiency, and boost customer satisfaction and loyalty.</p>
-            </div>
- 
-        </div>
+    <a class="indexsugarcrm" href="http://www.sugarcrm.com"><img src="images/SugarCRM.png" alt="SugarCRM"></a>
+  </div>
+  <div class="full-why-attend">
+    <div class="set-why-attend">
+      <h2>
+        Got customers? This is the conference for you.
+      </h2>
+      <div class="why-attend-1">
+        <i class="fa fa-bullhorn"></i> <br>
+        <p>
+          Hear from the world’s leading visionaries, industry observers, and software developers about how you can transform your business by building deeper customer&nbsp;relationships.
+        </p>
+      </div>
+      <div class="why-attend-2">
+        <i class="fa fa-commenting"></i> <br>
+        <p>
+          Learn, network and have some fun with the growing SugarCRM community.
+        </p>
+      </div>
+      <div class="why-attend-1">
+        <i class="fa fa-newspaper-o"></i> <br>
+        <p>
+          Be the first to hear about exciting new Sugar product advancements that push Sugar beyond the leading edge of CRM.
+        </p>
+      </div>
+      <div class="why-attend-2">
+        <i class="fa fa-magic"></i> <br>
+        <p>
+          Discover how to put these new technologies to use to drive growth, improve efficiency, and boost customer satisfaction and loyalty.
+        </p>
+      </div>
     </div>
-
-   
-    
-    <div class="full-travel">
-		<div class="set-travel">
-        	<div class="travel-1">
-                <h2 class="hidedesktop">This June, turn your business trip into a <span style="font-family:'MontserratR';">getaway.</span></h2>
-                <img src="images/bridge.jpg" alt="San Francisco Golden Gate Bridge"/>
-            </div>
-            <div class="travel-2">
-                <h2 class="hidemobile">This June, turn your business trip into a <span style="font-family:'HelveticaB';">getaway.</span></h2>
-                
-                <p>See what San Francisco has to offer and make your trip to SugarCon not just about business but also pleasure.</p>
-                
-                <a href="venue.html"><p><i class="fa fa-building fa-lg"></i> &nbsp; See the Venue</p></a> 
-                <a style="margin-top:-20px;" href="https://resweb.passkey.com/go/sugar2016"><p><i class="fa fa-bed fa-lg"></i> &nbsp; Book your hotel</p></a>
-                <a href="venue.html#travel"><p><i class="fa fa-map-signs fa-lg"></i> &nbsp; Things to do near SugarCon</p></a>
-            </div>
-        </div>
+  </div>
+  <div class="full-travel">
+    <div class="set-travel">
+      <div class="travel-1">
+        <h2 class="hidedesktop">
+          This June, turn your business trip into a <span style="font-family:'MontserratR';">getaway.</span>
+        </h2>
+        <img src="images/bridge.jpg" alt="San Francisco Golden Gate Bridge" />
+      </div>
+      <div class="travel-2">
+        <h2 class="hidemobile">
+          This June, turn your business trip into a <span style="font-family:'HelveticaB';">getaway.</span>
+        </h2>
+        <p>
+          See what San Francisco has to offer and make your trip to SugarCon not just about business but also pleasure.
+        </p>
+        <a href="venue">
+        <p>
+          <i class="fa fa-building fa-lg"></i> &nbsp; See the Venue
+        </p>
+        </a> <a style="margin-top:-20px;" href="https://resweb.passkey.com/go/sugar2016">
+        <p>
+          <i class="fa fa-bed fa-lg"></i> &nbsp; Book your hotel
+        </p>
+        </a> <a href="venue/#travel">
+        <p>
+          <i class="fa fa-map-signs fa-lg"></i> &nbsp; Things to do near SugarCon
+        </p>
+        </a>
+      </div>
     </div>
-    
-    
-    <div class="full-sponsors">
-    	<div class="set-sponsors">
-        	<h2>Get to know our <span style="font-family:'HelveticaB';">Sponsors</span></h2>
-        </div>
-    	<div style="	width:100%;max-width:100%;padding-bottom:20px;" class="full-logos">
-                <a><img src="images/sponsor-logos/gold/3clogic.png" alt="3CLogic" /></a>
-                <a><img src="images/sponsor-logos/gold/act-on.png" alt="Act-On" /></a>			
-                <a><img src="images/sponsor-logos/gold/magic.png" alt="Magic" /></a>	
-                <a><img src="images/sponsor-logos/gold/trustsphere.png" alt="TrustSphere" /></a>	
-        </div>
-        <a style="margin-top:-30px;" href="sponsors.html" class="ghost-btn-dark">SEE ALL SPONSORS</a>
-
+  </div>
+  <div class="full-sponsors">
+    <div class="set-sponsors">
+      <h2>
+        Get to know our <span style="font-family:'HelveticaB';">Sponsors</span>
+      </h2>
     </div>
-    
+    <div style="  width:100%;max-width:100%;padding-bottom:20px;" class="full-logos">
+      <a><img src="images/sponsor-logos/gold/3clogic.png" alt="3CLogic" /></a> <a><img src="images/sponsor-logos/gold/act-on.png" alt="Act-On" /></a> <a><img src="images/sponsor-logos/gold/magic.png" alt="Magic" /></a> <a><img src="images/sponsor-logos/gold/trustsphere.png" alt="TrustSphere" /></a>
+    </div>
+    <a style="margin-top:-30px;" href="sponsors" class="ghost-btn-dark">SEE ALL SPONSORS</a>
+  </div>
 </section>
-
 <footer class="full-footer">
-	<div class="set-footer">
-    
-        
-    	<div class="footer-col">
-        	<img class="sugarcon" alt="sugarcon logo" src="images/sugarcon-logo-old.svg"><br><br>
-            <p><span style="color:#f44336;">June 13-16, 2016</span><br>Hilton San Francisco Union Square<br>San Francisco, CA</p><br><br>
-            <p style="color:#777;margin-bottom:5px;">Brought to you by</p>
-            <a href="http://sugarcrm.com/"><img class="sugarcrm" src="images/SugarCRM-color.png" alt="SugarCRM logo"></a>
-        </div>
-        <div class="footer-col">
-			<a class="twitter-timeline" href="https://twitter.com/LifeAtSugar" data-widget-id="661308040604463104">Tweets by @LifeAtSugar</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
+  <div class="set-footer">
+    <div class="footer-col">
+      <img class="sugarcon" alt="sugarcon logo" src="images/sugarcon-logo-old.svg"><br>
+      <br>
+      <p>
+        <span style="color:#f44336;">June 13-16, 2016</span><br>
+        Hilton San Francisco Union Square<br>
+        San Francisco, CA
+      </p>
+      <br>
+      <br>
+      <p style="color:#777;margin-bottom:5px;">
+        Brought to you by
+      </p>
+      <a href="http://www.sugarcrm.com/"><img class="sugarcrm" src="images/SugarCRM-color.png" alt="SugarCRM logo"></a>
     </div>
+    <div class="footer-col">
+      <a class="twitter-timeline" href="https://twitter.com/LifeAtSugar" data-widget-id="661308040604463104">Tweets by @LifeAtSugar</a> <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      </script>
+    </div>
+  </div>
 </footer>
-
 <script type="text/javascript">
-	jQuery(function($){
-    	     $( '.menu-btn' ).click(function(){
-    	     $('.responsive-menu').toggleClass('expand')
-    	     })
-        })
+  jQuery(function($){
+    $( '.menu-btn' ).click(function(){
+      $('.responsive-menu').toggleClass('expand')
+    })
+  })
 </script>
-
- 
- 
+<script src="bower_components/moment/min/moment.min.js"></script>
+<script src="bower_components/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
+<script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+<script>
+  jQuery(function($){
+    var earlyBird = moment.tz("2016-04-03 00:00", "America/Los_Angeles");
+    $('#countdown').countdown(earlyBird.toDate(), function(event) {
+      $(this).html(event.strftime(''
+        + '<span>%-w</span> week%!w, '
+        + '<span>%-d</span> day%!d, '
+        + '<span>%H</span> hour%!H, '
+        + '<span>%-M</span> minute%!M, and '
+        + '<span>%-S</span> second%!S'));
+    });
+  })
+</script>
 </body>
 </html>
