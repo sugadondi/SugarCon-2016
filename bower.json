@@ -23,6 +23,7 @@
     "montserrat-webfont": "^1.0.3",
     "moment": "^2.11.2",
     "moment-timezone": "^0.5.0",
-    "jquery.countdown": "^2.1.0"
+    "jquery.countdown": "^2.1.0",
+    "animate.css": "^3.5.1"
   }
 }
