@@ -681,8 +681,11 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
     vertical-align:middle;
 }
 
+.silver-sponsors img.s3 {
+	max-width:120px;
+	margin-top:-20px;
+}
 
-    
 .indexsugarcrm {
     float:right;
 }
