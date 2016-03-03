@@ -13,7 +13,7 @@
   </script>
   <title>SugarCon 2016</title>
 </head>
-<body class="animated fadeIn">
+<body class="page-home animated fadeIn">
 <header class="full-nav">
   <div class="mobile-nav">
     <a href="#top"><img src="images/sugarcon-logo-old.svg" alt="SugarCon 2016 logo" /></a>
@@ -58,6 +58,11 @@
         Learn How To Make Every Customer Relationship <span style="font-family:'HelveticaB';">Extraordinary</span>
       </h1>
       <a href="https://www.etouches.com/145026" class="ghost-btn-white">REGISTER</a>
+      <div class="countdownwrapper">
+        Early Bird registration ends in<br>
+        <span id="countdown"></span>.<br>
+        This deadline will not be extended.<br>
+      </div>
     </div>
     <a class="indexsugarcrm" href="http://www.sugarcrm.com"><img src="images/SugarCRM.png" alt="SugarCRM"></a>
   </div>
@@ -164,6 +169,22 @@
     $( '.menu-btn' ).click(function(){
       $('.responsive-menu').toggleClass('expand')
     })
+  })
+</script>
+<script src="bower_components/moment/min/moment.min.js"></script>
+<script src="bower_components/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
+<script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+<script>
+  jQuery(function($){
+    var earlyBird = moment.tz("2016-04-03 00:00", "America/Los_Angeles");
+    $('#countdown').countdown(earlyBird.toDate(), function(event) {
+      $(this).html(event.strftime(''
+        + '<span>%-w</span> week%!w, '
+        + '<span>%-d</span> day%!d, '
+        + '<span>%H</span> hour%!H, '
+        + '<span>%-M</span> minute%!M, and '
+        + '<span>%-S</span> second%!S'));
+    });
   })
 </script>
 </body>
