@@ -54,13 +54,13 @@
   <div class="full-hero">
     <div class="set-hero">
       <h1>
-        <span style="font-size:24px;">June 13-16, San Francisco</span><br>
+        <span style="font-size:24px;">June 13-16, San&nbsp;Francisco</span><br>
         Learn How To Make Every Customer Relationship <span style="font-family:'HelveticaB';">Extraordinary</span>
       </h1>
       <a href="https://www.etouches.com/145026" class="ghost-btn-white">REGISTER</a>
       <div class="countdownwrapper">
         Early Bird registration ends in<br>
-        <span id="countdown"></span>.<br>
+        <span id="countdown" style="font-family: HelveticaUL;"></span>.<br>
         This deadline will not be extended.<br>
       </div>
     </div>
@@ -176,14 +176,14 @@
 <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
 <script>
   jQuery(function($){
-    var earlyBird = moment.tz("2016-04-03 00:00", "America/Los_Angeles");
+    var earlyBird = moment.tz("2016-04-15 00:00", "America/Los_Angeles");
     $('#countdown').countdown(earlyBird.toDate(), function(event) {
       $(this).html(event.strftime(''
-        + '<span>%-w</span> week%!w, '
-        + '<span>%-d</span> day%!d, '
-        + '<span>%H</span> hour%!H, '
-        + '<span>%-M</span> minute%!M, and '
-        + '<span>%-S</span> second%!S'));
+        + '<span style="font-family: HelveticaUL; font-size: 24px;">%-w</span> week%!w, '
+        + '<span style="font-family: HelveticaUL; font-size: 24px;">%-d</span> day%!d, '
+        + '<span style="font-family: HelveticaUL; font-size: 24px;">%H</span> hour%!H, '
+        + '<span style="font-family: HelveticaUL; font-size: 24px;">%-M</span> minute%!M, and '
+        + '<span style="font-family: HelveticaUL; font-size: 24px;">%-S</span>&nbsp;second%!S'));
     });
   })
 </script>
