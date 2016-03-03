@@ -236,7 +236,7 @@ font-size:14px;
 
 .travel-2 p {
     color:#ccc;
-    padding:20px;
+    padding:10px;
     line-height:17pt;
     padding-left:50px;
 }
@@ -413,7 +413,7 @@ footer .footer-col:nth-child(3) {
 }
 
 .full-why-attend-agenda3 {
-	background:#eee;
+    background:#eee;
 }
 
 .full-why-attend-sf {
@@ -682,9 +682,9 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 }
 
 .silver-sponsors img.s3 {
-	max-width:120px;
-	margin-top:-20px;
-}full-sil
+    max-width:120px;
+    margin-top:-20px;
+}
 
 .indexsugarcrm {
     float:right;
@@ -709,9 +709,9 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 
 .set-gold .travel-1 img {
     width:10%;
-	padding:0 30px;
+    padding:0 30px;
     padding-bottom:10px;
-	vertical-align:middle;
+    vertical-align:middle;
 }
 
 .set-silver .why-attend-4 img {
@@ -1329,7 +1329,7 @@ letter-spacing:3px;
     color:white;
     border:2px solid #7CB342;
     padding:5px 10px;
-	}
+  }
 
     .set-nav li a.showontablet:active {
         background-color:#7CB342;
@@ -1407,27 +1407,27 @@ letter-spacing:3px;
     }
 
     div.show1300 a.ghost-btn-dark {
-		float:none;
-		display:block;
-		width:57%;
-		margin:5px auto;
-	}
+    float:none;
+    display:block;
+    width:57%;
+    margin:5px auto;
+  }
 
-	div.show1300 a.ghost-btn-dark:hover {
-		float:none;
-		display:block;
-		width:57%;
-		margin:5px auto;
-		text-align:center;
-	}
+  div.show1300 a.ghost-btn-dark:hover {
+    float:none;
+    display:block;
+    width:57%;
+    margin:5px auto;
+    text-align:center;
+  }
 
-	div.show1300 a.active {
-		float:none;
-		display:block;
-		width:57%;
-		margin:5px auto;
-		padding:0;
-	}
+  div.show1300 a.active {
+    float:none;
+    display:block;
+    width:57%;
+    margin:5px auto;
+    padding:0;
+  }
 
     .full-hero-venue .ghost-btn-white {
         padding:10px;
@@ -1467,8 +1467,8 @@ letter-spacing:3px;
     background:white;
     color:#333;
     border:2px solid white;
-    padding:10px 40px;
-	}
+    /* padding:10px 40px; */
+  }
 
     h1 {
         font-size:30pt;
@@ -1498,9 +1498,9 @@ letter-spacing:3px;
         font-size:36px;
     }
 
-	.mobile-nav a img {
-		width:25%;
-	}
+  .mobile-nav a img {
+    width:25%;
+  }
 
     .responsive-menu {
         width:120px;
@@ -1529,9 +1529,9 @@ letter-spacing:3px;
         width:75%;
     }
 
-	footer {
-		text-align:center;
-	}
+  footer {
+    text-align:center;
+  }
     .set-nav {
         display:none;
     }
@@ -1556,7 +1556,7 @@ letter-spacing:3px;
         clear:both;
         width:90%;
         padding:40px;
-	}
+  }
 
     .why-attend-2-times {
         display:block;
@@ -1625,42 +1625,42 @@ letter-spacing:3px;
         margin-bottom:20px;
     }
 
-	.ghost-btn-white:hover {
+  .ghost-btn-white:hover {
         padding:10px 20px;
     }
 
-	div.show1300 a.ghost-btn-dark {
-		float:none;
-		display:block;
-		width:80%;
-		margin:20px auto;
+  div.show1300 a.ghost-btn-dark {
+    float:none;
+    display:block;
+    width:80%;
+    margin:20px auto;
 
-	}
+  }
 
-	div.show1300 a.ghost-btn-dark:hover {
-		float:none;
-		display:block;
-		width:80%;
-		margin:20px auto;
+  div.show1300 a.ghost-btn-dark:hover {
+    float:none;
+    display:block;
+    width:80%;
+    margin:20px auto;
 
-	}
+  }
 
-	div.show1300 a.active {
-		float:none;
-		display:block;
-		width:80%;
-		margin:20px auto;
-	}
+  div.show1300 a.active {
+    float:none;
+    display:block;
+    width:80%;
+    margin:20px auto;
+  }
 
-	div.set-why-attend div.why-attend-1-sf  {
-		width:100%;
-	}
+  div.set-why-attend div.why-attend-1-sf  {
+    width:100%;
+  }
 
-	div.set-why-attend div.why-attend-2-sf {
-		width:85%;
-		margin-bottom:50px;
-		margin-top:40px;
-	}
+  div.set-why-attend div.why-attend-2-sf {
+    width:85%;
+    margin-bottom:50px;
+    margin-top:40px;
+  }
 
     footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
         width:50%;
@@ -1682,9 +1682,9 @@ letter-spacing:3px;
         text-align:center;
         margin-top:20px;
     }
-	footer {
-		text-align:center;
-	}
+  footer {
+    text-align:center;
+  }
 
     h1 {
         margin-top:-30px;
@@ -1720,7 +1720,7 @@ letter-spacing:3px;
 
     .mobile-nav a img{
         width:25%;
-		margin-top:0px;
+    margin-top:0px;
     }
 
 
@@ -1779,26 +1779,8 @@ letter-spacing:3px;
   display: block;
   content: " ";
   margin-top: -40px;
-  height: 100px;
+  height: 80px;
   visibility: hidden;
-}
-@media screen and (max-width: 1300px) {
-  *[id]:before {
-    display: block;
-    content: " ";
-    margin-top: -40px;
-    height: 100px;
-    visibility: hidden;
-  }
-}
-@media screen and (max-width: 800px) {
-  *[id]:before {
-    display: block;
-    content: " ";
-    margin-top: -80px;
-    height: 80px;
-    visibility: hidden;
-  }
 }
 @media screen and (max-width: 480px) {
   *[id]:before {
@@ -1810,4 +1792,31 @@ letter-spacing:3px;
   }
 }
 
+.page-home .set-hero a {
+  margin-bottom: 20px;
+}
 
+.page-home .indexsugarcrm img {
+  margin-top: 10px;
+}
+
+.countdownwrapper {
+  color: #fff;
+  line-height: 1.5;
+}
+*[id^='countdown']:before {
+  display: inline;
+  content: "";
+  margin-top: 0;
+  height: 0;
+  visibility: hidden;
+}
+@media screen and (max-width: 480px) {
+  *[id^='countdown']:before {
+    display: block;
+    content: " ";
+    margin-top: 0;
+    height: 0;
+    visibility: hidden;
+  }
+}
