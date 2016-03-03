@@ -1406,7 +1406,28 @@ letter-spacing:3px;
         max-width:200px;
     }
     
-    
+    div.show1300 a.ghost-btn-dark {
+		float:none;
+		display:block;
+		width:80%;
+		margin:5px auto;
+	}
+	
+	div.show1300 a.ghost-btn-dark:hover {
+		float:none;
+		display:block;
+		width:80%;
+		margin:5px auto;
+		text-align:center;
+	}
+	
+	div.show1300 a.active {
+		float:none;
+		display:block;
+		width:80%;
+		margin:5px auto;
+		padding:0;
+	}
     
     .full-hero-venue .ghost-btn-white {
         padding:10px;
@@ -1476,6 +1497,10 @@ letter-spacing:3px;
         margin:20px;
         font-size:36px;
     }
+	
+	.mobile-nav a img {
+		width:25%;
+	}
     
     .responsive-menu {
         width:120px;
@@ -1596,6 +1621,33 @@ letter-spacing:3px;
     a.ghost-btn-white:first-of-type {
         margin-bottom:20px;
     }
+	
+	.ghost-btn-white:hover {
+        padding:10px 20px;
+    }
+	
+	div.show1300 a.ghost-btn-dark {
+		float:none;
+		display:block;
+		width:80%;
+		margin:20px auto;
+		
+	}
+	
+	div.show1300 a.ghost-btn-dark:hover {
+		float:none;
+		display:block;
+		width:80%;
+		margin:20px auto;
+
+	}
+	
+	div.show1300 a.active {
+		float:none;
+		display:block;
+		width:80%;
+		margin:20px auto;
+	}
     
     footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
         width:50%;
@@ -1651,10 +1703,10 @@ letter-spacing:3px;
     }
     
     .mobile-nav a img{
-        width:200px;
-        margin-top:5px;
+        width:25%;
+		margin-top:0px;
     }
-    
+   
     
     
     .set-why-attend-faq {
