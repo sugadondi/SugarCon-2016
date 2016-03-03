@@ -1409,14 +1409,14 @@ letter-spacing:3px;
     div.show1300 a.ghost-btn-dark {
 		float:none;
 		display:block;
-		width:80%;
+		width:57%;
 		margin:5px auto;
 	}
 	
 	div.show1300 a.ghost-btn-dark:hover {
 		float:none;
 		display:block;
-		width:80%;
+		width:57%;
 		margin:5px auto;
 		text-align:center;
 	}
@@ -1424,7 +1424,7 @@ letter-spacing:3px;
 	div.show1300 a.active {
 		float:none;
 		display:block;
-		width:80%;
+		width:57%;
 		margin:5px auto;
 		padding:0;
 	}
@@ -1529,6 +1529,9 @@ letter-spacing:3px;
         width:75%;
     }
     
+	footer {
+		text-align:center;
+	}
     .set-nav {
         display:none;
     }
@@ -1649,6 +1652,16 @@ letter-spacing:3px;
 		margin:20px auto;
 	}
     
+	div.set-why-attend div.why-attend-1-sf  {
+		width:100%;
+	}
+	
+	div.set-why-attend div.why-attend-2-sf {
+		width:85%;
+		margin-bottom:50px;
+		margin-top:40px;
+	}
+	
     footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
         width:50%;
     }
@@ -1669,6 +1682,9 @@ letter-spacing:3px;
         text-align:center;
         margin-top:20px;
     }
+	footer {
+		text-align:center;
+	}
     
     h1 {
         margin-top:-30px;
