@@ -1803,7 +1803,9 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 }
 
 *[id^='countdown']:before,
-*[id^='tooltip']:before {
+*[id^='tooltip']:before,
+*[id^='menu-btn']:before,
+*[id^='top']:before {
   display: inline;
   content: "";
   margin-top: 0;
@@ -1813,7 +1815,9 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 
 @media screen and (max-width: 480px) {
   *[id^='countdown']:before,
-  *[id^='tooltip']:before {
+  *[id^='tooltip']:before,
+  *[id^='menu-btn']:before,
+  *[id^='top']:before {
     display: block;
     content: " ";
     margin-top: 0;
