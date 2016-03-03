@@ -1285,7 +1285,8 @@ letter-spacing:3px;
     .full-hero-faq .ghost-btn-white:first-of-type {
         margin-bottom:50px;
     }
-    
+   
+	
     h1 {
         font-size:36pt;
         line-height:44pt;
@@ -1314,13 +1315,21 @@ letter-spacing:3px;
         font-size:10px;
         padding:5px 10px;
     }
-    
+	
+    /*
     .set-nav li a.showontablet:hover {
         color:#7CB342;
         background-color:transparent;
         font-size:10px;
         padding:5px 10px;
-    }
+    }*/
+	
+    .set-nav li a.showontablet:hover {
+    background:#7CB342;
+    color:white;
+    border:2px solid #7CB342;
+    padding:5px 10px;
+	}
     
     .set-nav li a.showontablet:active {
         background-color:#7CB342;
@@ -1369,12 +1378,12 @@ letter-spacing:3px;
     }
     
     .agenda-tables .tg .tg-bsv2 {
-        text-align:right;
+        text-align:center;
         width:30%;
     }
     
     .agenda-tables .tg .tg-031e {
-        text-align:left;
+        text-align:center;
     }
 
     .show1300 {
@@ -1438,7 +1447,7 @@ letter-spacing:3px;
     color:#333;
     border:2px solid white;
     padding:10px 40px;
-}
+	}
     
     h1 {
         font-size:30pt;
@@ -1519,7 +1528,7 @@ letter-spacing:3px;
         clear:both;
         width:90%;
         padding:40px;   
-}
+	}	
 
     .why-attend-2-times {       
         display:block;
