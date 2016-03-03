@@ -1,0 +1,28 @@
+{
+  "name": "sugarcon-2016",
+  "homepage": "http://sugarcon.sugarcrm.com",
+  "authors": [
+    "msoroeta@sugarcrm.com",
+    "dbogusky@sugarcrm.com"
+  ],
+  "description": "SugarCon 2016 Site",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.5.0",
+    "slicknav": "^1.0.5",
+    "montserrat-webfont": "^1.0.3",
+    "moment": "^2.11.2",
+    "moment-timezone": "^0.5.0",
+    "jquery.countdown": "^2.1.0"
+  }
+}
