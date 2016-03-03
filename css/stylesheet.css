@@ -1775,4 +1775,23 @@ letter-spacing:3px;
 
 }
 
+@media screen and (min-width: 480px) {
+  *[id]:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 480px) {
+  *[id]:before {
+    display: block;
+    content: " ";
+    margin-top: -40px;
+    height: 40px;
+    visibility: hidden;
+  }
+}
+
 
