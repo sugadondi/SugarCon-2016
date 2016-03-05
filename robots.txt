@@ -1,0 +1,13 @@
+# http://www.robotstxt.org/
+
+# Sitemap: http://sugarcon.sugarcrm.com/sitemap.xml
+
+User-agent: *
+Disallow: /2015-01-19/
+Disallow: /2015-02-13/
+Disallow: /2015-03-17/
+Disallow: /2015-05-29/
+Disallow: /comps/
+Disallow: /launch/
+Disallow: /party/
+Disallow: /stage/

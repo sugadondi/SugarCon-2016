@@ -11,8 +11,6 @@
   </script>
   <script type="text/javascript" src="http://fast.fonts.net/jsapi/efeb9771-21e6-4e27-baae-42c9a7a84877.js">
   </script>
-<!--tooptip-->
-<!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
   </script>
   <script>
@@ -31,9 +29,23 @@
       });
     });
   </script>
-  <style>   .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+  <style>
+   .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
   </style>
   <title>Sponsors - SugarCon 2016</title>
+  <!--[if lt IE 9]>
+  <script src="../js/vendor/html5shiv.min.js"></script>
+  <script src="../js/vendor/respond.min.js"></script>
+  <![endif]-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-399452-38', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
 </head>
 <body class="page-sponsors">
 <header class="full-nav">
@@ -49,7 +61,7 @@
         <li><a href="../venue">VENUE</a></li>
         <li><a href="../sponsors">SPONSORS</a></li>
         <li><a href="../faq">FAQ</a></li>
-        <li class="red"><a href="https://www.etouches.com/145026">REGISTER</a></li>
+        <li class="red"><a href="https://www.etouches.com/145026" target="_blank" onclick="ga('send', 'event', 'link', 'Register', $(this).attr('href')+'?onClick');" onmousedown="ga('send', 'event', 'link', 'Register', $(this).attr('href')+'?onMouseDown');">REGISTER</a></li>
       </ul>
     </div>
   </div>
@@ -64,11 +76,11 @@
         <li><a href="../venue">VENUE</a></li>
         <li><a class="current" href="../sponsors">SPONSORS</a></li>
         <li><a href="../faq">FAQ</a></li>
-        <li><a class="showontablet ghost-btn-green" href="https://www.etouches.com/145026">REGISTER</a></li>
+        <li><a class="showontablet ghost-btn-green" href="https://www.etouches.com/145026" target="_blank" onclick="ga('send', 'event', 'link', 'Register', $(this).attr('href')+'?onClick');" onmousedown="ga('send', 'event', 'link', 'Register', $(this).attr('href')+'?onMouseDown');">REGISTER</a></li>
       </ul>
     </div>
     <div class="buttondiv">
-      <a href="https://www.etouches.com/145026" class="ghost-btn-green">REGISTER</a>
+      <a class="ghost-btn-green" href="https://www.etouches.com/145026" target="_blank" onclick="ga('send', 'event', 'link', 'Register', $(this).attr('href')+'?onClick');" onmousedown="ga('send', 'event', 'link', 'Register', $(this).attr('href')+'?onMouseDown');">REGISTER</a>
     </div>
   </div>
 </header>
@@ -121,7 +133,7 @@
     </div>
   </div>
   <div class="full-silver" id="silver">
-    <div style="width:100%;height:60px;background-color:#ccc;padding:0;margin:0;max-width:100%;margin-bottom:20px;">
+    <div style="margin-top: -40px;width:100%;height:60px;background-color:#ccc;padding:0;margin:0;max-width:100%;margin-bottom:20px;">
       <h2 style="margin:0;padding:0;vertical-align:middle;color:white;font-family:'HelveticaUL'; font-size:36px;padding-top:10px;">
         Silver Sponsors
       </h2>
@@ -137,9 +149,6 @@
         </div>
         <div class="sponsor">
           <a data-toggle="tooltip" data-placement="bottom" title="MasterSolve"><img class="s1" src="../images/sponsor-logos/silver/mastersolve.png" alt="MasterSolve" /></a>
-        </div>
-        <div class="sponsor">
-          <a data-toggle="tooltip" data-placement="bottom" title="IBM Silverpop"><img class="s2" src="../images/sponsor-logos/silver/silverpop.png" style="" alt="IBM Silverpop" /></a>
         </div>
         <div class="sponsor">
           <a data-toggle="tooltip" data-placement="bottom" title="Rolustech is a full service SugarCRM development and implementation partner providing comprehensive professional services with a global presence. With one of the largest teams of certified SugarCRM experts and a wide variety of high quality Plugins, Rolustech has helped more than 500 businesses in utilizing the complete potential of SugarCRM."><img class="s1" src="../images/sponsor-logos/silver/rolustech.png" style="" alt="Rolustech" /></a>
@@ -160,7 +169,7 @@
     </div>
   </div>
   <div class="full-exhibitors" id="exhibitors">
-    <div style="width:100%;height:60px;background-color:#444;padding:0;margin:0;max-width:100%;margin-bottom:20px;">
+    <div style="margin-top: -40px;width:100%;height:60px;background-color:#444;padding:0;margin:0;max-width:100%;margin-bottom:20px;">
       <h2 style="margin:0;padding:0;vertical-align:middle;color:white;font-family:'HelveticaUL'; font-size:36px;padding-top:10px;text-align:center;">
         Exhibitors
       </h2>
@@ -202,7 +211,7 @@
       <p style="color:#777;margin-bottom:5px;">
         Brought to you by
       </p>
-      <a href="http://www.sugarcrm.com/"><img class="sugarcrm" src="../images/SugarCRM-color.png" alt="SugarCRM logo"></a>
+      <a href="http://www.sugarcrm.com/"><img class="sugarcrm" src="../images/sugarcrm-color.png" alt="SugarCRM logo"></a>
     </div>
     <div class="footer-col">
       <a class="twitter-timeline" href="https://twitter.com/LifeAtSugar" data-widget-id="661308040604463104">Tweets by @LifeAtSugar</a> <script>
