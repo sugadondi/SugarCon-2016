@@ -181,8 +181,6 @@ body > section > div.full-why-attend.animated.fadeIn > div > h4 {
   letter-spacing: 1px;
 }
 
-
-
 .set-why-attend-faq p {
   line-height: 16pt;
 }
@@ -372,6 +370,13 @@ footer .footer-col:nth-child(3) {
   /*border-top: 15px solid #F44336;*/
 }
 
+.full-highlights {
+  background-color: #f44336;
+  overflow: hidden;
+  /*border-top: 15px solid #F44336;*/
+}
+
+
 .full-travel-exhibitors {
   background-color: #444;
   overflow: hidden;
@@ -457,13 +462,23 @@ section div div, .set-footer, .video-container .set-hero {
   width: 22%;
 }
 
-.travel-1 {
+.travel-1, .highlights-1 {
   width: 50%;
   clear: left;
   float: left;
 }
 
-.travel-2 {
+.highlights-1 {
+	text-align:right;
+}
+
+.highlights-1 h2 {
+	padding-right:50px;
+	line-height:48pt;
+	color:white;
+}
+
+.travel-2, .highlights-2 {
   width: 50%;
   float: left;
 }
@@ -1648,6 +1663,7 @@ padding-top:0;
   footer {
     text-align: center;
   }
+
 
   .set-nav {
     display: none;
