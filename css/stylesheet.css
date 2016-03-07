@@ -172,14 +172,12 @@ p {
   line-height: 16pt;
 }
 
-.page-agenda .set-why-attend-faq h4 {
+body > section > div.full-why-attend.animated.fadeIn > div > h4 {
   padding-bottom: 5px;
   padding-top: 30px;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'HelveticaUL';
-  padding: 10px 0px 10px 10px;
-  background-color: #333;
-  color: white;
+  color: #333;
   letter-spacing: 1px;
 }
 
