@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="icon" href="images/favicon.png">
+  <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
   <script src="bower_components/jquery/dist/jquery.min.js">
   </script>
   <script type="text/javascript" src="http://fast.fonts.net/jsapi/efeb9771-21e6-4e27-baae-42c9a7a84877.js">
+  </script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
   </script>
   <title>SugarCon 2016</title>
   <!--[if lt IE 9]>
@@ -72,7 +74,7 @@
       </h1>
       <a href="https://www.etouches.com/145026" class="ghost-btn-white">REGISTER</a>
       <div class="countdownwrapper">
-        Early Bird registration ends in<br>
+        <a data-toggle="tooltip" data-placement="bottom" title="Early Bird Registration (save $200) ends April 15." ><u>Early Bird registration ends in</u></a><br>
         <span id="countdown" style="font-family: HelveticaUL;"></span>.<br>
       </div>
     </div>
@@ -198,6 +200,11 @@
         + '<span style="font-family: HelveticaUL; font-size: 24px;">%-S</span>&nbsp;second%!S'));
     });
   })
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+  });
 </script>
 </body>
 </html>

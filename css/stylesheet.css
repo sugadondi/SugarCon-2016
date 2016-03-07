@@ -371,7 +371,7 @@ footer .footer-col:nth-child(3) {
 .full-travel {
   background-color: #222;
   overflow: hidden;
-  border-top: 15px solid #F44336;
+  /*border-top: 15px solid #F44336;*/
 }
 
 .full-travel-exhibitors {
@@ -674,14 +674,14 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
   padding: 40px 0;
 }
 
-.silver-sponsors img.s1 {
+.silver-sponsors .sponsor img.s1 {
   max-width: 200px;
   margin-right: 40px;
   padding: 40px 0;
   vertical-align: middle;
 }
 
-.silver-sponsors img.s2 {
+.silver-sponsors .sponsor img.s2 {
   max-width: 200px;
   margin-left: 40px;
   padding: 40px 0;
