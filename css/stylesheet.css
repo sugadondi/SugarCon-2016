@@ -371,7 +371,7 @@ footer .footer-col:nth-child(3) {
 }
 
 .full-highlights {
-  background-color: #f44336;
+  background-color: #444;
   overflow: hidden;
   /*border-top: 15px solid #F44336;*/
 }
@@ -687,14 +687,14 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
   padding: 40px 0;
 }
 
-.silver-sponsors .sponsor img.s1 {
+.silver-sponsors a img.s1 {
   max-width: 200px;
   margin-right: 40px;
   padding: 40px 0;
   vertical-align: middle;
 }
 
-.silver-sponsors .sponsor img.s2 {
+.silver-sponsors a img.s2 {
   max-width: 200px;
   margin-left: 40px;
   padding: 40px 0;
@@ -1909,7 +1909,7 @@ padding-top:0;
 }
 
 *[id]:before {
-  display: block;
+  display: none;
   content: " ";
   margin-top: -40px;
   height: 80px;
@@ -2110,6 +2110,8 @@ padding-top:0;
         width:100%;
     }
 
+
+	
     .why-attend-1, .why-attend-2, .why-attend-4 {
         margin:auto;
         float:none;
@@ -2140,7 +2142,7 @@ padding-top:0;
 
 @media screen and (max-width: 480px) {
   *[id]:before {
-    display: block;
+    display: none;
     content: " ";
     margin-top: -40px;
     height: 40px;
