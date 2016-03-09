@@ -371,7 +371,7 @@ footer .footer-col:nth-child(3) {
 }
 
 .full-highlights {
-  background-color: #444;
+  background-color: #ccc;
   overflow: hidden;
   /*border-top: 15px solid #F44336;*/
 }
@@ -475,7 +475,7 @@ section div div, .set-footer, .video-container .set-hero {
 .highlights-1 h2 {
 	padding-right:50px;
 	line-height:48pt;
-	color:white;
+	color:#333;
 }
 
 .travel-2, .highlights-2 {
