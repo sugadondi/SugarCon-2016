@@ -181,6 +181,11 @@ body > section > div.full-why-attend.animated.fadeIn > div > h4 {
   letter-spacing: 1px;
 }
 
+.full-why-attend>.set-why-attend p{
+	text-align:left;
+	padding:20px 0;
+	vertical-align:middle;
+}
 .set-why-attend-faq p {
   line-height: 16pt;
 }
