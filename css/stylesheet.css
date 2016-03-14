@@ -371,7 +371,7 @@ footer .footer-col:nth-child(3) {
 }
 
 .full-highlights {
-  background-color: #ccc;
+  background-color: #496478;
   overflow: hidden;
   /*border-top: 15px solid #F44336;*/
 }
@@ -461,6 +461,22 @@ section div div, .set-footer, .video-container .set-hero {
   width: 22%;
 }
 
+.set-why-attend, .set-why-attend-2 {
+	display:block;
+	clear:both;
+}
+
+.set-why-attend-2 {
+	border-top:1px solid #aaa;
+}
+
+.set-why-attend-2>p {
+ }
+
+.set-why-attend-2 p .fa {
+	color:#f44336;
+}
+
 .travel-1, .highlights-1 {
   width: 50%;
   clear: left;
@@ -474,7 +490,7 @@ section div div, .set-footer, .video-container .set-hero {
 .highlights-1 h2 {
 	padding-right:50px;
 	line-height:48pt;
-	color:#333;
+	color:white;
 }
 
 .travel-2, .highlights-2 {
@@ -514,6 +530,7 @@ section div div, .set-footer, .video-container .set-hero {
   margin-bottom: 5%;
   text-align: center;
   line-height: 17pt;
+  padding-bottom:50px;
 }
 
 .why-attend-1-venue {
