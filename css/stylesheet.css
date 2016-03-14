@@ -403,10 +403,9 @@ footer .footer-col:nth-child(3) {
 }
 
 .full-why-attend {
-  background-color: #E6E7E8;
+  background-color: white;
   text-align: center;
   overflow: hidden;
-  // border-bottom: 35px solid #E6E7E8;
 }
 
 .full-why-attend-agenda3 {
