@@ -1025,9 +1025,7 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 }
 
 .set-why-attend .fa {
-  font-size: 48pt;
-  margin-bottom: 20px;
-  margin-top: 30px;
+  font-size: 36pt;
   color: #333;
 }
 
@@ -1594,9 +1592,25 @@ padding-top:0;
   .full-fero-faq .ghost-btn-white {
     margin-bottom: 30px;
   }
-
+  
+  .set-highlights {
+	  width:100%;
+  }
+  
+  .highlights-1, .highlights-2 {
+	  text-align:center;
+	  width:100%;
+	  float:none;
+	  display:block;
+  }
+  
   .set-why-attend h2, .set-travel-venue h2 {
     font-size: 28px;
+  }
+  
+  .set-why-attend, .set-why-attend-2 {
+	  margin-left:20px;
+	  margin-right:20px;
   }
 
   .set-why-attend-faq {
@@ -1787,6 +1801,10 @@ padding-top:0;
     width: 80%;
     margin: 20px auto;
   }
+  
+  .highlights-1 h2 {
+	  line-height:32px;
+  }
 
   div.show1300 a.ghost-btn-dark:hover {
     float: none;
@@ -1844,7 +1862,7 @@ padding-top:0;
   }
 
   h2 {
-    font-size: 18pt;
+    font-size: 28pt;
   }
 
   h3 {
@@ -1993,7 +2011,7 @@ padding-top:0;
         margin-bottom:30px;
     }
 
-    .set-why-attend h2, .set-travel-venue h2 {
+    .set-why-attend h2, .set-travel-venue h2, .set-why-attend-2 h2 {
         font-size:28px;
     }
 
