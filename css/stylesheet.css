@@ -264,6 +264,23 @@ body > section > div.full-why-attend.animated.fadeIn > div > h4 {
 /*------------------------
     STRUCTURE DIVS
 ------------------------*/
+/*.keynote {
+	height:200px;
+	padding-bottom:5%;
+	background-image:url('../images/keynote.jpg');
+	background-position:bottom left;
+	background-size:contain;
+	margin-top:20px;
+}*/
+
+.why-attend-2 .keynote img {
+	width:100%;
+	height:initial;
+}
+
+.keynote h2 {
+	margin-top:-200px;
+}
 
 footer {
   background: #222;
@@ -480,6 +497,7 @@ section div div, .set-footer, .video-container .set-hero {
 
 .set-why-attend-2 p .fa {
 	color:#f44336;
+	font-size:inherit;
 }
 
 .travel-1, .highlights-1 {
