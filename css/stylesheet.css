@@ -279,7 +279,21 @@ body > section > div.full-why-attend.animated.fadeIn > div > h4 {
 }
 
 .keynote h2 {
-	margin-top:-250px;
+	/*for wallace   margin-top:-250px; */
+	height:20px;
+	text-align:center;
+	padding-bottom:0;
+	font-size:20pt;
+	padding:20px;
+	
+}
+
+.keynote h2 {
+	background-color:#222;
+}
+
+.keynote h2:hover {
+	background-color:#333;
 }
 
 footer {
