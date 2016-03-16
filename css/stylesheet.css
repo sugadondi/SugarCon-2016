@@ -456,6 +456,10 @@ section div div, .set-footer, .video-container .set-hero {
   max-width: 1120px;
 }
 
+body > section > div.full-why-attend > div > div.set-why-attend-2 > div{
+	width:100%;
+}
+
 .set-nav {
   width: 75%;
   text-align: center;
