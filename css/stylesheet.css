@@ -284,7 +284,7 @@ body > section > div.full-why-attend.animated.fadeIn > div > h4 {
 	text-align:center;
 	padding-bottom:0;
 	font-size:20pt;
-	padding:20px;
+	padding:18px;
 	
 }
 
@@ -563,6 +563,17 @@ body > section > div.full-why-attend > div > div.set-why-attend-2 > div{
 /*------------------------
     SMALLER DIVS
 ------------------------*/
+
+
+.trainingdiv {
+	float:left;
+	width:46%;
+	margin-bottom:30px;
+}
+
+.trainingdiv:first-of-type {
+	padding-right:4%;
+}
 
 .why-attend-1 {
   width: 50%;
@@ -929,6 +940,10 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 /*------------------------
     OTHER ELEMENTS - BUTTONS, FONT AWESOME
 ------------------------*/
+
+.fa-bullhorn, .fa-newspaper-o, .fa-commenting, .fa-magic {
+	float:left;
+}
 
 .full-travel-venue iframe {
   margin-bottom: 50px;
@@ -1465,6 +1480,25 @@ padding-top:-20px;
     margin: 0 10px;
     margin-bottom: 50px;
   }
+  
+  .keynote h2 {
+	  font-size:14pt;
+  }
+    body > section > div.full-why-attend > div > div.why-attend-1 {
+  	float:none;
+	width:75%;
+	display:block;
+  }
+  
+  body > section > div.full-why-attend > div > div.why-attend-1 div {
+  	width:100%;
+  }
+   
+  body > section > div.full-why-attend > div > div.why-attend-2 {
+  	float:none;
+	width:100%;
+	display:block;
+  }
 
   .full-hero-faq .ghost-btn-white:first-of-type {
     margin-bottom: 50px;
@@ -1583,7 +1617,15 @@ padding-top:0;
   .agenda-tables .tg {
     width: 100%;
   }
+  
 
+  
+  .trainingdiv {
+  	display:block;
+	width:100%;
+	float:none;
+  }
+  
   .full-hero-faq .ghost-btn-white {
     padding: 10px;
     margin: auto;
@@ -1817,6 +1859,13 @@ padding-top:0;
 @media screen and (max-width: 480px) {
   .full-nav {
     height: 40px;
+  }
+  
+  .fa-bullhorn, .fa-newspaper-o, .fa-commenting, .fa-magic {
+	display: block;
+    text-align: center;
+    padding-bottom: 30px;
+    float: none;
   }
 
   .ghost-btn-white {
