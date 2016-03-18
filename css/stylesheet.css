@@ -1324,8 +1324,6 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
   width: 300px;
   display: inline;
   float: left;
-  margin-left: 40px;
-  margin-top: 10px;
 }
 
 .responsive-menu {
@@ -1618,6 +1616,9 @@ padding-top:0;
     width: 100%;
   }
   
+  .full-nav {
+	  max-width:100vw;
+  }
     
   .set-why-attend-2 p {
 	  width:90%;
@@ -1781,6 +1782,7 @@ padding-top:0;
 
   .mobile-nav a img {
     width: 25%;
+	margin-left:40px;
   }
 
   .responsive-menu {
@@ -1889,13 +1891,26 @@ padding-top:0;
 
   .why-attend-4 p {
     padding: 0 40px;
-  }
+	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-device-width: 480px) {
   .full-nav {
     height: 40px;
+	max-width:100vw;
   }
+  
+  .slider-container {
+	  max-width: 480px;
+	  overflow:hidden;
+  }
+  
+  .slider {
+  	max-width:480px;
+	overflow:hidden;
+  }
+  
+  
   
   .fa-bullhorn, .fa-newspaper-o, .fa-commenting, .fa-magic {
 	display: block;
@@ -2043,8 +2058,7 @@ padding-top:0;
   }
 
   .mobile-nav a img {
-    width: 25%;
-    margin-top: 0px;
+    max-height: 20px;
   }
 
   .set-why-attend-faq {
