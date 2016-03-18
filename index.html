@@ -3,14 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="icon" href="images/favicon.png">
+
+
+  
+  <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  
   <script src="bower_components/jquery/dist/jquery.min.js">
   </script>
   <script type="text/javascript" src="http://fast.fonts.net/jsapi/efeb9771-21e6-4e27-baae-42c9a7a84877.js">
   </script>
+  
+  
+  
+  
+  
+		<!--slider-->  
+
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="jquery-logo-slider-ticker/jquery.bxSlider.js"></script>
+		<script type="text/javascript">
+  		$(document).ready(function(){
+     		$('#slider').bxSlider({
+    		ticker: true,
+    		tickerSpeed: 5000,
+			tickerHover: true
+  		});
+  		});
+		</script>
+
+		<link href="jquery-logo-slider-ticker/style.css" rel="stylesheet">
+        
+        <!--/slider-->
+          <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+  </script>
+        
+        
   <title>SugarCon 2016</title>
   <!--[if lt IE 9]>
   <script src="js/vendor/html5shiv.min.js"></script>
@@ -72,7 +102,7 @@
       </h1>
       <a href="https://www.etouches.com/145026" class="ghost-btn-white">REGISTER</a>
       <div class="countdownwrapper">
-        Early Bird registration ends in<br>
+        <a data-toggle="tooltip" data-placement="bottom" title="Register now and save $200" style="font-family: HelveticaUL;margin-top:20px;letter-spacing:.5px; border-bottom:1px solid white;">Early Bird registration ends April 15!</a><br>
         <span id="countdown" style="font-family: HelveticaUL;"></span>.<br>
       </div>
     </div>
@@ -81,41 +111,83 @@
   <div class="full-why-attend">
     <div class="set-why-attend">
       <h2>
-        Got customers? This is the conference for you.
+         Got <span style="font-family:'HelveticaB';">customers</span>? This is the conference for you.
       </h2>
       <div class="why-attend-1">
-        <i class="fa fa-bullhorn"></i> <br>
+        
+        <div> 
         <p>
-          Hear from the world’s leading visionaries, industry observers, and software developers about how you can transform your business by building deeper customer&nbsp;relationships.
+        <i class="fa fa-bullhorn" style=" padding-right:20px;margin-top:0px;"></i>Hear from the world’s leading visionaries, industry observers, and software developers about how you can transform your business by building deeper customer&nbsp;relationships.
         </p>
+        </div><br>
+        
+        <div>
+        <p>
+        <i class="fa fa-commenting" style="padding-right:20px;margin-top:0px;"></i>Learn, network and have some fun with the growing SugarCRM community.
+        </p>
+        </div><br>
+        
+        <div>
+        <p>
+        <i class="fa fa-newspaper-o" style=" padding-right:20px;margin-top:0px;"></i>Be the first to hear about exciting new Sugar product advancements that push Sugar beyond the leading edge of CRM.
+        </p>
+        </div><br>      
+        
+        <div>
+        <p>
+        <i class="fa fa-magic" style="padding-right:20px;margin-top:0px;"></i>Discover how to put these new technologies to use to drive growth, improve efficiency, and boost customer satisfaction and&nbsp;loyalty.
+        </p>
+        </div>
+        
       </div>
       <div class="why-attend-2">
-        <i class="fa fa-commenting"></i> <br>
-        <p>
-          Learn, network and have some fun with the growing SugarCRM community.
-        </p>
+      	<a href="agenda/#training"><div class="keynote">
+        <!--<h3 style="text-align:center;color:white;margin-top:20px;padding-top:10px;padding-bottom:10px;">Get <span style="font-family:'HelveticaB';">Tech Training</span> at SugarCon!</h3></a>-->
+        <a href="agenda/#training" style="color:white;" ><h2>Get <span style="font-family:'HelveticaB';">Tech Training</span> at SugarCon</h2></a>
+
+        <img style="margin-top:0; display:block;" src="images/training.jpg" alt="training">
+        <p style="padding-top:0;">Our hands-on product <a href="agenda/#training" style="color:#333; font-family:'HelveticaB';">Training Program</a> is designed to build your competence and efficiency with Sugar technology so you can immediately boost your job performance and drive results back home. While you’re at it, why not get certified too? If you complete your training and take the certification test at SugarCon, we’ll waive the cost of the exam. <a href="agenda/#training" style="color:#2088D7; font-family:'HelveticaB';">Learn more.</a>
+</p>
       </div>
-      <div class="why-attend-1">
-        <i class="fa fa-newspaper-o"></i> <br>
-        <p>
-          Be the first to hear about exciting new Sugar product advancements that push Sugar beyond the leading edge of CRM.
-        </p>
-      </div>
-      <div class="why-attend-2">
-        <i class="fa fa-magic"></i> <br>
-        <p>
-          Discover how to put these new technologies to use to drive growth, improve efficiency, and boost customer satisfaction and&nbsp;loyalty.
-        </p>
-      </div>
-    </div>
-  </div>
+    </div><br>
+    <div class="set-why-attend-2">
+   		<h2> <span style="padding-top:50px;font-family:'HelveticaB'">Justify</span> your trip.</h2>
+        <h3>Need a little help convincing management that your trip to San Francisco is worthwhile?</h3>
+
+	    <p style="line-height:20px;text-align:center;">Tell them that the knowledge and skills you gain at SugarCon ultimately help them get more from their investment. You'll come back with fresh ideas and better practices for developing market-leading solutions, capitalizing on emerging opportunities, and communicating and collaborating more efficiently. By participating at SugarCon, you can help your organization:</p><br><br>
+
+        
+   
+        
+        <div style="text-align:left; clear:both;line-height:16pt;padding-bottom:70px;">
+        <p><i class="fa fa-chevron-right fa-fw"></i><span style="font-family:'HelveticaB';">Make smarter use</span> of your technology budget–understand which solutions are right for your specific challenges</p>
+        <p><i class="fa fa-chevron-right fa-fw"></i><span style="font-family:'HelveticaB';">Do more</span> with the tools you already have in place–stay competitive while keeping costs down</p>
+        <p><i class="fa fa-chevron-right fa-fw"></i><span style="font-family:'HelveticaB';">Level-up</span> the skills of your department with advanced SugarCRM certifications</p>
+        <p><i class="fa fa-chevron-right fa-fw"></i><span style="font-family:'HelveticaB';">Anticipate</span> Industry trends and plan for any impact on your business</p>
+        <p><i class="fa fa-chevron-right fa-fw"></i><span style="font-family:'HelveticaB';">Get an inside look</span> at what top companies are doing to stay ahead of the competition–accomplishing more with less and never sacrificing innovation</p>
+        <p><i class="fa fa-chevron-right fa-fw"></i><span style="font-family:'HelveticaB';">Plug into a global network</span> of experts–SugarCRM executives, engineers and IT leaders–for guidance on any challenge your company is facing</p>
+        <!--
+        
+            <p><i class="fa fa-chevron-right fa-fw"></i><span style="font-family:'HelveticaB';">Understand</span> which solutions are right for your specific challenges, so you can make smarter use of your technology budget.</p>
+            <p><i class="fa fa-chevron-right fa-fw"></i><span style="font-family:'HelveticaB';">Do more</span> with the technologies already in place, to help you stay competitive and keep costs down.</p>
+            <p><i class="fa fa-chevron-right fa-fw"></i><span style="font-family:'HelveticaB';">Level up</span> the skills and experience of your department with advanced SugarCRM certifications.</p>
+            <p><i class="fa fa-chevron-right fa-fw"></i><span style="font-family:'HelveticaB';">Anticipate</span> emerging technology and communication trends, so you can plan for any impact on your business.</p>
+            <p><i class="fa fa-chevron-right fa-fw"></i><span style="font-family:'HelveticaB';">Witness</span> how innovative, market-leading companies are using technology to build and sustain a competitive advantage.</p>
+            <p><i class="fa fa-chevron-right fa-fw"></i><span style="font-family:'HelveticaB';">Plug into a worldwide network</span> of knowledgeable professionals who share ideas on how to accomplish more with less and keep costs down without sacrificing innovation.</p>
+            <p><i class="fa fa-chevron-right fa-fw"></i><span style="font-family:'HelveticaB';">Connect</span> with our experts — including SugarCRM executives, engineers and some of the brightest innovators in IT — for guidance and advice on the specific challenges your company may be facing.</p>--><br><br><br>
+            <p style="text-align:center;"> <a style="margin-top:-20px;margin-bottom:30px;" href="https://www.etouches.com/145026" class="ghost-btn-red">REGISTER</a></p>
+		</div>
+      </div>        
+  	</div>
+ </div>
+  
   <div class="full-travel">
     <div class="set-travel">
       <div class="travel-1">
         <h2 class="hidedesktop">
-          This June, turn your business trip into a <span style="font-family:'MontserratR';">getaway.</span>
+          This June, turn your business trip into a <span style="font-family:'HelveticaB';">getaway.</span>
         </h2>
-        <img src="images/bridge.jpg" alt="San Francisco Golden Gate Bridge" />
+        <img src="images/bridge.jpg" alt="San Francisco Golden Gate Bridge" style="margin-bottom:-3px;"/>
       </div>
       <div class="travel-2">
         <h2 class="hidemobile">
@@ -140,16 +212,53 @@
       </div>
     </div>
   </div>
+
+      <div class="full-highlights">
+    <div class="set-highlights">
+      <div class="highlights-1">
+        <h2>
+          Watch some of last year's SugarCon <span style="font-family:'HelveticaB';">highlights.</span>
+        </h2>
+      </div>
+      <div class="highlights-2">
+		<iframe width="100%" height="315" src="https://www.youtube.com/embed/6TfGKpUIt4k?modestbranding=1&amp;showinfo=0&amp;"  allowfullscreen style="margin-bottom:-3px;"></iframe>       </div>
+    </div>
+  </div>
+
+
   <div class="full-sponsors">
+  
     <div class="set-sponsors">
       <h2>
         Get to know our <span style="font-family:'HelveticaB';">Sponsors</span>
       </h2>
-    </div>
-    <div style="  width:100%;max-width:100%;padding-bottom:20px;" class="full-logos">
-      <a><img src="images/sponsor-logos/gold/3clogic.png" alt="3CLogic" /></a> <a><img src="images/sponsor-logos/gold/act-on.png" alt="Act-On" /></a> <a><img src="images/sponsor-logos/gold/magic.png" alt="Magic" /></a> <a><img src="images/sponsor-logos/gold/trustsphere.png" alt="TrustSphere" /></a>
-    </div>
-    <a style="margin-top:-30px;" href="sponsors" class="ghost-btn-dark">SEE ALL SPONSORS</a>
+      <!-- slider -->
+        <div class="slider-container" style="display:block;">
+        
+            <ul id="slider">
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -01.png"></a></li>
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -02.png"></a></li>
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -03.png"></a></li>
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -04.png"></a></li>
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -05.png"></a></li>
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -06.png"></a></li>
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -07.png"></a></li>
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -08.png"></a></li>
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -09.png"></a></li>
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -10.png"></a></li>
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -11.png"></a></li>
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -12.png"></a></li>
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -13.png"></a></li>
+                <li><a href="#"><img src="jquery-logo-slider-ticker/logos/ -14.png"></a></li>
+            </ul>
+        
+        </div><!-- /slider -->
+
+    </div><br><br>
+    <!--<div style="  width:100%;max-width:100%;padding-bottom:20px;" class="full-logos">
+      <a><img src="images/sponsor-logos/gold/magic.png"  style="max-height:100px;" alt="Magic" /></a><a><img src="images/sponsor-logos/gold/3clogic.png" alt="3CLogic" /></a> <a><img src="images/sponsor-logos/gold/act-on.png" alt="Act-On" /></a>  <a><img src="images/sponsor-logos/gold/trustsphere.png" alt="TrustSphere" /></a>
+    </div>-->
+    <br><a style="margin-top:-30px;display:inline-block;" href="sponsors" class="ghost-btn-dark">SEE ALL SPONSORS</a>
   </div>
 </section>
 <footer class="full-footer">
@@ -170,7 +279,8 @@
       <a href="http://www.sugarcrm.com/"><img class="sugarcrm" src="images/sugarcrm-color.png" alt="SugarCRM logo"></a>
     </div>
     <div class="footer-col">
-      <div class="twidget"><a href="https://twitter.com/search?q=%23SugarCon" data-widget-id="429394035891896320" data-chrome="nofooter noborders noscrollbar" class="twitter-timeline">Tweets about #SugarCon</a></div>
+            <div class="twidget"><a href="https://twitter.com/search?q=%23SugarCon" data-widget-id="429394035891896320" data-chrome="nofooter noborders noscrollbar" class="twitter-timeline">Tweets about #SugarCon</a></div>
+
     </div>
   </div>
 </footer>
@@ -196,6 +306,11 @@
         + '<span style="font-family: HelveticaUL; font-size: 24px;">%-S</span>&nbsp;second%!S'));
     });
   })
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+  });
 </script>
 <script>
   !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
