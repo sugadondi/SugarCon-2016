@@ -1618,6 +1618,42 @@ padding-top:0;
     width: 100%;
   }
   
+    
+  .set-why-attend-2 p {
+	  width:90%;
+  }
+  
+  .set-why-attend-2>p, .set-why-attend-2>h3, .set-why-attend-2>h2, .set-why-attend>h2{
+	  width:80%;
+  }
+  
+  .set-why-attend .why-attend-1, .set-why-attend .why-attend-2 {
+	  width:95%;
+  }
+  
+  .highlights-1 h2 {
+	  padding:20px 0;
+	  line-height:37px;
+	  font-size:28pt;
+  }
+  
+  h2.hidedesktop {
+  	font-size:28pt;
+  }
+  
+  .keynote h2 {
+	/*for wallace   margin-top:-250px; */
+	height:20px;
+	text-align:center;
+	padding-bottom:0;
+	font-size:14pt;
+	padding:18px;
+	
+}
+
+.keynote p{
+	width:95%;
+}
 
   
   .trainingdiv {
