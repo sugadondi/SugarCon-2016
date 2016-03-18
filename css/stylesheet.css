@@ -130,7 +130,7 @@ h1 {
 h2 {
   font-size: 48px;
   padding-bottom: 30px;
-  padding-top: 50px;
+  padding-top: 100px;
   font-family: "HelveticaUL";
 }
 
@@ -162,7 +162,7 @@ p {
 
 .set-why-attend-faq h3 {
   padding-bottom: 10px;
-  padding-top: 50px;
+  padding-top: 100px;
   font-size: 14pt;
   letter-spacing: 4px;
   border-bottom: 3px solid #f44336;
@@ -172,19 +172,20 @@ p {
   line-height: 16pt;
 }
 
-.page-agenda .set-why-attend-faq h4 {
+body > section > div.full-why-attend.animated.fadeIn > div > h4 {
   padding-bottom: 5px;
   padding-top: 30px;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'HelveticaUL';
-  padding: 10px 0px 10px 10px;
-  background-color: #333;
-  color: white;
+  color: #333;
   letter-spacing: 1px;
 }
 
-
-
+.full-why-attend>.set-why-attend p{
+  text-align:left;
+  padding:20px 0;
+  vertical-align:middle;
+}
 .set-why-attend-faq p {
   line-height: 16pt;
 }
@@ -263,6 +264,37 @@ p {
 /*------------------------
     STRUCTURE DIVS
 ------------------------*/
+/*.keynote {
+  height:200px;
+  padding-bottom:5%;
+  background-image:url('../images/keynote.jpg');
+  background-position:bottom left;
+  background-size:contain;
+  margin-top:20px;
+}*/
+
+.why-attend-2 .keynote img {
+  width:100%;
+  height:initial;
+}
+
+.keynote h2 {
+  /*for wallace   margin-top:-250px; */
+  height:20px;
+  text-align:center;
+  padding-bottom:0;
+  font-size:20pt;
+  padding:18px;
+
+}
+
+.keynote h2 {
+  background-color:#222;
+}
+
+.keynote h2:hover {
+  background-color:#333;
+}
 
 footer {
   background: #222;
@@ -326,7 +358,7 @@ footer .footer-col:nth-child(3) {
 }
 
 .full-hero-sponsors {
-  background-image: url("../images/sponsors.jpg");
+  background-image: url("../images/sponsors2.jpg");
   background-position: center bottom;
   background-attachment: fixed;
   background-size: cover;
@@ -336,7 +368,7 @@ footer .footer-col:nth-child(3) {
 }
 
 .full-logos {
-  height: 50px;
+  height: 100px;
   overflow: hidden;
   margin-bottom: 50px;
 }
@@ -371,8 +403,15 @@ footer .footer-col:nth-child(3) {
 .full-travel {
   background-color: #222;
   overflow: hidden;
-  border-top: 15px solid #F44336;
+  /*border-top: 15px solid #F44336;*/
 }
+
+.full-highlights {
+  background-color: #496478;
+  overflow: hidden;
+  /*border-top: 15px solid #F44336;*/
+}
+
 
 .full-travel-exhibitors {
   background-color: #444;
@@ -400,10 +439,9 @@ footer .footer-col:nth-child(3) {
 }
 
 .full-why-attend {
-  background-color: #E6E7E8;
+  background-color: white;
   text-align: center;
   overflow: hidden;
-  // border-bottom: 35px solid #E6E7E8;
 }
 
 .full-why-attend-agenda3 {
@@ -430,6 +468,10 @@ section div div, .set-footer, .video-container .set-hero {
   width: 75%;
   margin: auto;
   max-width: 1120px;
+}
+
+body > section > div.full-why-attend > div > div.set-why-attend-2 > div{
+  width:100%;
 }
 
 .set-nav {
@@ -459,13 +501,40 @@ section div div, .set-footer, .video-container .set-hero {
   width: 22%;
 }
 
-.travel-1 {
+.set-why-attend, .set-why-attend-2 {
+  display:block;
+  clear:both;
+}
+
+.set-why-attend-2 {
+  border-top:1px solid #aaa;
+}
+
+.set-why-attend-2>p {
+ }
+
+.set-why-attend-2 p .fa {
+  color:#f44336;
+  font-size:inherit;
+}
+
+.travel-1, .highlights-1 {
   width: 50%;
   clear: left;
   float: left;
 }
 
-.travel-2 {
+.highlights-1 {
+  text-align:right;
+}
+
+.highlights-1 h2 {
+  padding-right:50px;
+  line-height:48pt;
+  color:white;
+}
+
+.travel-2, .highlights-2 {
   width: 50%;
   float: left;
 }
@@ -495,6 +564,17 @@ section div div, .set-footer, .video-container .set-hero {
     SMALLER DIVS
 ------------------------*/
 
+
+.trainingdiv {
+  float:left;
+  width:46%;
+  margin-bottom:30px;
+}
+
+.trainingdiv:first-of-type {
+  padding-right:4%;
+}
+
 .why-attend-1 {
   width: 50%;
   float: left;
@@ -502,6 +582,7 @@ section div div, .set-footer, .video-container .set-hero {
   margin-bottom: 5%;
   text-align: center;
   line-height: 17pt;
+  padding-bottom:50px;
 }
 
 .why-attend-1-venue {
@@ -674,14 +755,14 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
   padding: 40px 0;
 }
 
-.silver-sponsors img.s1 {
+.silver-sponsors a img.s1 {
   max-width: 200px;
   margin-right: 40px;
   padding: 40px 0;
   vertical-align: middle;
 }
 
-.silver-sponsors img.s2 {
+.silver-sponsors a img.s2 {
   max-width: 200px;
   margin-left: 40px;
   padding: 40px 0;
@@ -860,6 +941,10 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
     OTHER ELEMENTS - BUTTONS, FONT AWESOME
 ------------------------*/
 
+.fa-bullhorn, .fa-newspaper-o, .fa-commenting, .fa-magic {
+  float:left;
+}
+
 .full-travel-venue iframe {
   margin-bottom: 50px;
 }
@@ -991,9 +1076,7 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 }
 
 .set-why-attend .fa {
-  font-size: 48pt;
-  margin-bottom: 20px;
-  margin-top: 30px;
+  font-size: 36pt;
   color: #333;
 }
 
@@ -1241,8 +1324,6 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
   width: 300px;
   display: inline;
   float: left;
-  margin-left: 40px;
-  margin-top: 10px;
 }
 
 .responsive-menu {
@@ -1404,6 +1485,25 @@ padding-top:-20px;
     margin-bottom: 50px;
   }
 
+  .keynote h2 {
+    font-size:14pt;
+  }
+    body > section > div.full-why-attend > div > div.why-attend-1 {
+    float:none;
+  width:75%;
+  display:block;
+  }
+
+  body > section > div.full-why-attend > div > div.why-attend-1 div {
+    width:100%;
+  }
+
+  body > section > div.full-why-attend > div > div.why-attend-2 {
+    float:none;
+  width:100%;
+  display:block;
+  }
+
   .full-hero-faq .ghost-btn-white:first-of-type {
     margin-bottom: 50px;
   }
@@ -1522,6 +1622,53 @@ padding-top:0;
     width: 100%;
   }
 
+  .full-nav {
+    max-width:100vw;
+  }
+
+  .set-why-attend-2 p {
+    width:90%;
+  }
+
+  .set-why-attend-2>p, .set-why-attend-2>h3, .set-why-attend-2>h2, .set-why-attend>h2{
+    width:80%;
+  }
+
+  .set-why-attend .why-attend-1, .set-why-attend .why-attend-2 {
+    width:95%;
+  }
+
+  .highlights-1 h2 {
+    padding:20px 0;
+    line-height:37px;
+    font-size:28pt;
+  }
+
+  h2.hidedesktop {
+    font-size:28pt;
+  }
+
+  .keynote h2 {
+  /*for wallace   margin-top:-250px; */
+  height:20px;
+  text-align:center;
+  padding-bottom:0;
+  font-size:14pt;
+  padding:18px;
+
+}
+
+.keynote p{
+  width:95%;
+}
+
+
+  .trainingdiv {
+    display:block;
+  width:100%;
+  float:none;
+  }
+
   .full-hero-faq .ghost-btn-white {
     padding: 10px;
     margin: auto;
@@ -1567,8 +1714,24 @@ padding-top:0;
     margin-bottom: 30px;
   }
 
+  .set-highlights {
+    width:100%;
+  }
+
+  .highlights-1, .highlights-2 {
+    text-align:center;
+    width:100%;
+    float:none;
+    display:block;
+  }
+
   .set-why-attend h2, .set-travel-venue h2 {
     font-size: 28px;
+  }
+
+  .set-why-attend, .set-why-attend-2 {
+    margin-left:20px;
+    margin-right:20px;
   }
 
   .set-why-attend-faq {
@@ -1625,6 +1788,7 @@ padding-top:0;
 
   .mobile-nav a img {
     width: 25%;
+  margin-left:40px;
   }
 
   .responsive-menu {
@@ -1656,6 +1820,7 @@ padding-top:0;
   footer {
     text-align: center;
   }
+
 
   .set-nav {
     display: none;
@@ -1735,9 +1900,29 @@ padding-top:0;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-device-width: 480px) {
   .full-nav {
     height: 40px;
+  max-width:100vw;
+  }
+
+  .slider-container {
+    max-width: 480px;
+    overflow:hidden;
+  }
+
+  .slider {
+    max-width:480px;
+  overflow:hidden;
+  }
+
+
+
+  .fa-bullhorn, .fa-newspaper-o, .fa-commenting, .fa-magic {
+  display: block;
+    text-align: center;
+    padding-bottom: 30px;
+    float: none;
   }
 
   .ghost-btn-white {
@@ -1758,6 +1943,45 @@ padding-top:0;
     width: 80%;
     margin: 20px auto;
   }
+
+  .highlights-1 h2 {
+    line-height:32px;
+  }
+
+  .set-why-attend-2 p {
+    width:90%;
+  }
+
+  .set-why-attend-2>p, .set-why-attend-2>h3, .set-why-attend-2>h2, .set-why-attend>h2{
+    width:80%;
+  }
+
+  .set-why-attend .why-attend-1, .set-why-attend .why-attend-2 {
+    width:95%;
+  }
+
+  .highlights-1 h2 {
+    padding:20px 0;
+    line-height:37px;
+  }
+
+  h2.hidedesktop {
+    font-size:28pt;
+  }
+
+  .keynote h2 {
+  /*for wallace   margin-top:-250px; */
+  height:20px;
+  text-align:center;
+  padding-bottom:0;
+  font-size:14pt;
+  padding:18px;
+
+}
+
+.keynote p{
+  width:95%;
+}
 
   div.show1300 a.ghost-btn-dark:hover {
     float: none;
@@ -1815,7 +2039,7 @@ padding-top:0;
   }
 
   h2 {
-    font-size: 18pt;
+    font-size: 28pt;
   }
 
   h3 {
@@ -1840,8 +2064,7 @@ padding-top:0;
   }
 
   .mobile-nav a img {
-    width: 25%;
-    margin-top: 0px;
+    max-height: 20px;
   }
 
   .set-why-attend-faq {
@@ -1901,7 +2124,7 @@ padding-top:0;
 }
 
 *[id]:before {
-  display: block;
+  display: none;
   content: " ";
   margin-top: -40px;
   height: 80px;
@@ -1964,7 +2187,7 @@ padding-top:0;
         margin-bottom:30px;
     }
 
-    .set-why-attend h2, .set-travel-venue h2 {
+    .set-why-attend h2, .set-travel-venue h2, .set-why-attend-2 h2 {
         font-size:28px;
     }
 
@@ -2102,6 +2325,8 @@ padding-top:0;
         width:100%;
     }
 
+
+
     .why-attend-1, .why-attend-2, .why-attend-4 {
         margin:auto;
         float:none;
@@ -2132,7 +2357,7 @@ padding-top:0;
 
 @media screen and (max-width: 480px) {
   *[id]:before {
-    display: block;
+    display: none;
     content: " ";
     margin-top: -40px;
     height: 40px;
