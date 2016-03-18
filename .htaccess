@@ -305,6 +305,7 @@ DirectoryIndex index.min.html index.html
   # RedirectMatch 301 ^/sponsors(/)? http://sugarcon.sugarcrm.com/
   RedirectMatch 301 ^/uncon(/)? http://sugarcon.sugarcrm.com/
   RedirectMatch 301 ^/ux-lab(/)? http://sugarcon.sugarcrm.com/
+  RedirectMatch 301 ^/venue.html(.*) http://sugarcon.sugarcrm.com/venue/
 </IfModule>
 
 ModPagespeed on

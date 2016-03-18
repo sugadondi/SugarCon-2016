@@ -1472,6 +1472,12 @@ padding-top:-20px;
     MEDIA QUERIES
 ------------------------*/
 
+@media screen and (max-width: 1434px) {
+  .keynote h2 {
+    font-size: 14pt;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .full-hero-faq .ghost-btn-white {
     padding: 10px;
