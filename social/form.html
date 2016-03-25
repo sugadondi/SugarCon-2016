@@ -54,6 +54,15 @@
   
 </head>
 <body>
+<div id="woobox-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//woobox.com/js/plugins/woo.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'woobox-sdk'));</script>
+
 <header class="full-nav">
   <div class="mobile-nav">
     <a href="../#top"><img src="../images/sugarcon-logo-old.svg" alt="SugarCon 2016 logo" /></a>
@@ -95,25 +104,13 @@
 
 <section>
 <div class="full-social">
-        <div class="set-social" style="width:100%;">
-        	<h2 style="margin-top:-100px;  color:white;">SugarCon 2016 Video Contest Giveaway</h2>
-        	<div class="x2" style="padding-bottom:50px;">
-                <div style="max-width:1200px; overflow:hidden;">
-                    <div class="social1" style="line-height:20px;">
-                        <h3 style="color:white;padding-top:20px; letter-spacing:.5px;"> Here’s your chance to join us in San Francisco for SugarCon 2016! </h3>
-                        <p>The winner will receive two complimentary SugarCon conference passes. Contest submissions close on May 15th. The winner will be announced on the SugarCon website on May18th.</p><br><br>
-                        <p>See <a href="terms1.html" target="_blank" style="color:#2088D7;font-family:'HelveticaB';">Terms and Conditions</a><br><br><br><br>
-                        <a style="clear:both;" class="ghost-btn-white" href="form.html">ENTER <i class="fa fa-chevron-circle-right fw"></i></a>
-
-                    </div><!--/social1-->
-                    <div class="social2">
-                        <p>exmaple submission</p>
-                        <iframe width="560" height="315" style="max-width:100%;" src="https://www.youtube.com/embed/2YllipGl2Is?rel=0" frameborder="0" allowfullscreen></iframe><br><br><br>
-
-                    </div><!--/social2-->
-                </div><!--1200px-->
-                </div>
-
+        <div class="set-social">
+        	<h2 style="margin-top:-100px; color:white;">SugarCon 2016 Video Contest Giveaway</h2>
+        	<div style="max-width:800px; overflow:hidden; padding-bottom:50px;">
+        		<div class="woobox-offer" data-offer="7er4n5"></div><br><br><br>
+                
+                <a href="index.html" class="ghost-btn-white"><i class="fa fa-chevron-circle-left fw"></i> BACK</a>
+        	</div>
         </div>
 </div>
 </section>

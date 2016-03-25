@@ -359,7 +359,7 @@ footer .footer-col:nth-child(3) {
 }
 
 .full-social {
-  background-image: url("../images/sponsors.jpg");
+  background-image: url("../images/social.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-color: #333;
@@ -368,6 +368,7 @@ footer .footer-col:nth-child(3) {
   padding-top:200px;
   padding-bottom:200px;
 }
+
 
 .full-hero-agenda {
   background-image: url("../images/agenda.jpg");
@@ -513,6 +514,24 @@ section div div, .set-footer, .video-container .set-hero {
 
 body > section > div.full-why-attend > div > div.set-why-attend-2 > div{
   width:100%;
+}
+
+.set-social {
+	max-width:100%;
+}
+
+.set-social div.x2 {
+	width:100%;
+	max-width:100%;
+	background-color:#111;
+	color:#aaa;
+	overflow:hidden;
+}
+
+.set-social .social1, .set-social .social2 {
+	width:560px;
+	padding:20px 10px;
+	float:left;
 }
 
 .set-nav {
