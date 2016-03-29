@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../bower_components/animate.css/animate.min.css">
   <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+  <link rel="stylesheet" href="../accordion.css">
+
   <script src="../bower_components/jquery/dist/jquery.min.js">
   </script>
   <script type="text/javascript" src="http://fast.fonts.net/jsapi/efeb9771-21e6-4e27-baae-42c9a7a84877.js">
@@ -41,6 +43,48 @@
     ga('require', 'displayfeatures');
     ga('send', 'pageview');
   </script>
+  
+  
+  
+  <!--accordion stuff-->
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#accordion" ).accordion({
+      heightStyle: "content"
+    });
+  });
+
+  $(function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  });
+
+  $(function() {
+    var icons = {
+      header: "ui-icon-circle-triangle-e",
+      activeHeader: "ui-icon-circle-triangle-s"
+    };
+    $( "#accordion" ).accordion({
+      icons: icons
+    });
+    
+  });
+  </script>
+
+  <style>
+    #accordion {
+      width:100%;
+    }
+
+  </style>
+<!--/accordion stuff-->
 </head>
 <body class="page-agenda">
 <a name="top" id="top"></a>
@@ -56,7 +100,7 @@
         <li><a href="#top">AGENDA</a></li>
         <li><a href="../venue">VENUE</a></li>
         <li><a href="../sponsors">SPONSORS</a></li>
-        <li><a href="social">SOCIAL</a></li>
+        <li><a href="../social">SOCIAL</a></li>
         <li><a href="../faq">FAQ</a></li>
         <li class="red"><a href="https://www.etouches.com/145026" target="_blank" onclick="ga('send', 'event', 'link', 'Register', $(this).attr('href')+'?onClick');" onmousedown="ga('send', 'event', 'link', 'Register', $(this).attr('href')+'?onMouseDown');">REGISTER</a></li>
       </ul>
@@ -72,7 +116,7 @@
         <li><a class="current" href="#top">AGENDA</a></li>
         <li><a href="../venue">VENUE</a></li>
         <li><a href="../sponsors">SPONSORS</a></li>
-        <li><a href="social">SOCIAL</a></li>
+        <li><a href="../social">SOCIAL</a></li>
         <li><a href="../faq">FAQ</a></li>
         <li><a class="showontablet ghost-btn-green" href="https://www.etouches.com/145026" target="_blank" onclick="ga('send', 'event', 'link', 'Register', $(this).attr('href')+'?onClick');" onmousedown="ga('send', 'event', 'link', 'Register', $(this).attr('href')+'?onMouseDown');">REGISTER</a></li>
       </ul>
@@ -338,6 +382,63 @@
       <h2 style="padding-top:100px;">
         Tracks
       </h2>
+      <!--ACCORDION BEGIN-->
+      <div id="accordion">
+  <h3><i class="fa fa-chevron-circle-right fw"></i> Transforming Client Engagement through Automation in Sugar
+</h3>
+  <div>
+    <img style="max-width:150px;float:left;padding-right:10px;" src="http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg">
+    <p><strong>Speaker:</strong> Alison Clack–Mazars UK</p>
+    <p>As with most organisations a key focus for Mazars is relationships. Maintaining strong client relationships involves access to up to date information, documents, as well as tracking time and activities for billing. Mazars has leveraged back office integration and smart automation inside Sugar to make the process far more efficient, while improving billing accuracy. Learn from Alison Clack, Director of Business Transformation at Mazars UK, as she describes the business challenges the firm faces, and how automation in Sugar is providing efficiencies and cost savings in addition to enhanced user experiences. </p>
+  </div>
+
+  <h3><i class="fa fa-chevron-circle-right fw"></i> Building Loyalty and Growing Sales via deep Marketing Automation Integration with Sugar
+</h3>
+  <div>
+    <img style="max-width:150px;float:left;padding-right:10px;" src="http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg">
+        <p><strong>Speaker:</strong> Alison Clack–Mazars UK</p>
+    <p>As with most organisations a key focus for Mazars is relationships. Maintaining strong client relationships involves access to up to date information, documents, as well as tracking time and activities for billing. Mazars has leveraged back office integration and smart automation inside Sugar to make the process far more efficient, while improving billing accuracy. Learn from Alison Clack, Director of Business Transformation at Mazars UK, as she describes the business challenges the firm faces, and how automation in Sugar is providing efficiencies and cost savings in addition to enhanced user experiences. </p>
+
+  </div>
+
+  <h3><i class="fa fa-chevron-circle-right fw"></i> Sugar Roadmap Overview
+</h3>
+  <div>
+        <img style="max-width:150px;float:left;padding-right:10px;" src="http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg">
+      <p><strong>Speaker:</strong> Alison Clack–Mazars UK</p>
+    <p>As with most organisations a key focus for Mazars is relationships. Maintaining strong client relationships involves access to up to date information, documents, as well as tracking time and activities for billing. Mazars has leveraged back office integration and smart automation inside Sugar to make the process far more efficient, while improving billing accuracy. Learn from Alison Clack, Director of Business Transformation at Mazars UK, as she describes the business challenges the firm faces, and how automation in Sugar is providing efficiencies and cost savings in addition to enhanced user experiences. </p>
+
+  </div>
+
+  <h3><i class="fa fa-chevron-circle-right fw"></i> Five Awesome Things You didn’t Know You Could do with Advanced Workflow
+</h3>
+  <div>
+    <img style="max-width:150px;float:left;padding-right:10px;" src="http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg">
+        <p><strong>Speaker:</strong> Alison Clack–Mazars UK</p>
+    <p>As with most organisations a key focus for Mazars is relationships. Maintaining strong client relationships involves access to up to date information, documents, as well as tracking time and activities for billing. Mazars has leveraged back office integration and smart automation inside Sugar to make the process far more efficient, while improving billing accuracy. Learn from Alison Clack, Director of Business Transformation at Mazars UK, as she describes the business challenges the firm faces, and how automation in Sugar is providing efficiencies and cost savings in addition to enhanced user experiences. </p>
+
+  </div>
+
+  <h3><i class="fa fa-chevron-circle-right fw"></i> Moving Basic Workflows to Advanced Workflows – A Best Practices Guide 
+</h3>
+  <div>
+    <img style="max-width:150px;float:left;padding-right:10px;" src="http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg">
+        <p><strong>Speaker:</strong> Alison Clack–Mazars UK</p>
+    <p>As with most organisations a key focus for Mazars is relationships. Maintaining strong client relationships involves access to up to date information, documents, as well as tracking time and activities for billing. Mazars has leveraged back office integration and smart automation inside Sugar to make the process far more efficient, while improving billing accuracy. Learn from Alison Clack, Director of Business Transformation at Mazars UK, as she describes the business challenges the firm faces, and how automation in Sugar is providing efficiencies and cost savings in addition to enhanced user experiences. </p>
+
+  </div>
+
+  <h3><i class="fa fa-chevron-circle-right fw"></i> Transforming the Agent Experience by Taking the Customer Perspective
+</h3>
+  <div>
+    <img style="max-width:150px;float:left;padding-right:10px;" src="http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg">
+        <p><strong>Speaker:</strong> Alison Clack–Mazars UK</p>
+    <p>As with most organisations a key focus for Mazars is relationships. Maintaining strong client relationships involves access to up to date information, documents, as well as tracking time and activities for billing. Mazars has leveraged back office integration and smart automation inside Sugar to make the process far more efficient, while improving billing accuracy. Learn from Alison Clack, Director of Business Transformation at Mazars UK, as she describes the business challenges the firm faces, and how automation in Sugar is providing efficiencies and cost savings in addition to enhanced user experiences. </p>
+
+  </div>
+
+</div> <!--ACCORDION END-->
+   
       <h4 style="font-size:18px;font-family:'HelveticaUL'; padding:10px 0px 10px 10px; background-color:#333;color:white; letter-spacing:.5px;">
         Business Transformation
       </h4>

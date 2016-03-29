@@ -1789,7 +1789,7 @@ padding-top:0;
 }
 
 
-  .trainingdiv {
+  .trainingdiv, .trainingdiv:first-of-type {
     display:block;
   width:100%;
   float:none;
