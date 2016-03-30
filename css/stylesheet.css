@@ -1272,8 +1272,23 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 	padding:10px;
 }*/
 
-.sessionsdiv table a {
+.sessionsdiv {
+	overflow-y:hidden;
+	overflow-x:scroll;
+	width:100%;
+}
+
+.sessionstable {
+	min-width:900px;
+}
+
+.sessiondiv table tr td a:hover {
+	cursor:default;
+}
+
+.sessionsdiv table a.whitelink {
 	color:white;
+	cursor:default;
 }
 
 td.bf {
@@ -1315,6 +1330,8 @@ td.uncon {
 }
 
 tr td:first-of-type{
+	vertical-align:middle;
+	font-family:'HelveticaB';
 	background-color:white;
 	border-left:none;
 	padding-top:10px;
