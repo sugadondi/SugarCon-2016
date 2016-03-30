@@ -1257,6 +1257,11 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 	vertical-align:middle;
 }
 
+.sessionstable tr:first-of-type td:not(.label):hover {
+	transition: background-color 0.5s ease;
+	background-color:#444;
+}
+
 /*.sessionstable tr:first-of-type td:nth-child(even) { /*USED TO ALTERNATE COLORS
 	background-color:#333;
 	color:white;
@@ -1270,10 +1275,6 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 .sessionsdiv table a {
 	color:white;
 }
-
-/*.sessionsdiv table {
-	border:5px solid #000;
-}*/
 
 td.bf {
 	background-color:#d5d8dc;
@@ -1291,6 +1292,7 @@ td.date {
 	padding:10px 0 10px 0;
 	text-align:center;
 }
+
 
 td.lb {
 	background-color:#f1f8ea;
