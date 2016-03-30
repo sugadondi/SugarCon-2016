@@ -1267,9 +1267,13 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 	padding:10px;
 }*/
 
-.sessionsdiv table {
-	border:5px solid #000;
+.sessionsdiv table a {
+	color:white;
 }
+
+/*.sessionsdiv table {
+	border:5px solid #000;
+}*/
 
 td.bf {
 	background-color:#d5d8dc;
