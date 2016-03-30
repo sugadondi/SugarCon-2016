@@ -1159,6 +1159,186 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
   display: none;
 }
 
+/*---------SESSIONS TABLE-----------*/
+/*---------
+.cs		Customer Spotlight
+.sp 	Sponsor Sessions
+.bf 	Birds of a Feather
+.su		Sugar Sessions
+.lb		Lightbulb
+
+.head	Table header
+-------*/
+
+.fa-asterisk {
+	color:transparent;
+	background-color:#6DADD4;
+	display:block;
+	padding:5px;
+	font-size:1pt;
+}
+
+.fa-twitter {
+	color:transparent;
+	background-color:#2C3E50;
+	display:block;
+	padding:5px;
+		font-size:1pt;
+
+}
+
+.fa-cube {
+	color:transparent;
+	background-color:#FC4349;
+	display:block;
+	padding:5px;
+		font-size:1pt;
+
+} 
+
+.fa-flask {
+	color:transparent;
+	background-color:#888;
+	display:block;
+	padding:5px;
+		font-size:1pt;
+
+}
+
+.fa-star {
+	color:transparent;
+	background-color:#FFC772;
+	display:block;
+	padding:5px;
+		font-size:1pt;
+
+}
+
+.fa-user {
+	color:transparent;
+	background-color:#BADB99;
+	display:block;
+	padding:5px;
+		font-size:1pt;
+
+}
+
+.fa-wrench {
+	color:transparent;
+	background-color:#bbb;
+	display:block;
+	padding:5px;
+		font-size:1pt;
+
+}
+
+.sessionstable td {
+	font-family:'Helvetica';
+	font-size:9pt;
+	vertical-align:top;
+	text-align:center;
+	margin:0;
+	border-left:2px solid white;
+	border-right:2px solid white;
+	width:150px;
+	padding-bottom:10px;
+}
+
+.sessionstable tr:first-of-type td:not(.label) { /*TOP ROW*/
+	background-color:#333;
+	color:white;
+	font-size:9pt;
+	font-family:'MontserratR';
+	text-transform:uppercase;
+	letter-spacing:1px;
+	border-left:2px solid #444;
+	border-right:none;
+	padding:10px;
+	vertical-align:middle;
+}
+
+/*.sessionstable tr:first-of-type td:nth-child(even) { /*USED TO ALTERNATE COLORS
+	background-color:#333;
+	color:white;
+	font-size:9pt;
+	font-family:'HelveticaB';
+	border-left:1px solid white;
+	border-right:1px solid white;
+	padding:10px;
+}*/
+
+.sessionsdiv table {
+	border:5px solid #000;
+}
+
+td.bf {
+	background-color:#d5d8dc;
+}
+
+td.cs {
+	background-color:#e1eef7;
+}
+
+td.date {
+	background-color:#333;
+	color:#fff;
+	font-family:'MontserratR';
+	letter-spacing:2px;
+	padding:10px 0 10px 0;
+	text-align:center;
+}
+
+td.lb {
+	background-color:#f1f8ea;
+}
+
+td.sp {
+	background-color:#fff4e1;
+}
+
+td.su {
+	background-color:#ffd9d9;
+}
+
+td.sugarlabs {
+	background-color:#ddd;
+}
+
+td.uncon {
+	background-color:#eee;
+}
+
+tr td:first-of-type{
+	background-color:white;
+	border-left:none;
+	padding-top:10px;
+}
+
+tr td:nth-child(2) {
+	border-left:none;
+}
+
+tr.tr1 td.label, tr td.label {
+	background-color:white;
+	color:black;
+	font-family:'HelveticaB';
+	font-size:9pt;
+	letter-spacing:normal;
+	vertical-align:middle;
+	text-shadow:2px 2px 2px #ddd;
+}
+
+tr.tr3 td:nth-child(2) { /*BOTTOM TABLE*/
+	background-color:white;
+}
+
+tr.tr3 td:nth-child(2) i { /*BOTTOM TABLE*/
+	background-color:transparent;
+	border:none;
+	display:initial;
+}
+
+
 /*--------TOOLTIP---------*/
 
 .tooltip {

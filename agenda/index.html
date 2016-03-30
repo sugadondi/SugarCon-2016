@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
   <link rel="stylesheet" href="../accordion.css">
 
+
   <script src="../bower_components/jquery/dist/jquery.min.js">
   </script>
   <script type="text/javascript" src="http://fast.fonts.net/jsapi/efeb9771-21e6-4e27-baae-42c9a7a84877.js">
@@ -29,6 +30,14 @@
         });
       });
   </script>
+  <!--tooltip-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--/tooltip-->
+  
+  
+  
   <title>Agenda - SugarCon 2016</title>
   <!--[if lt IE 9]>
   <script src="../js/vendor/html5shiv.min.js"></script>
@@ -378,17 +387,143 @@
     </div>
   </div>
   <div class="full-why-attend-agenda3">
-    <div id="tracks" class="set-why-attend-faq animated fadeIn">
-      <h2 style="padding-top:100px;">
+  
+  <h2 style="padding-top:100px;">
         Tracks
       </h2>
+      
+      
+  <!--SESSIONS TABLE-->
+  <div class="sessionsdiv">
+    <table  cellspacing="0" cellpadding="0" class="sessionstable">
+        <tr class="tr1">
+        	<td class="label" style="padding-top:10px;border:none;backg">Track <i class="fa fa-chevron-right"></i></td>
+            <td rowspan="2">Business Transformation<br><i class="fa fa-chevron-down"></i></td>
+            <td rowspan="2">Winning CRM Strategies<br><i class="fa fa-chevron-down"></i></td>
+            <td rowspan="2">CRM can do THAT?<br><i class="fa fa-chevron-down"></i></td>
+            <td rowspan="2">Extending Sugar: How I Did It<br><i class="fa fa-chevron-down"></i></td>
+            <td rowspan="2">Sugar-In-Depth<br><i class="fa fa-chevron-down"></i></td>
+            <td rowspan="2">Birds of a Feather<br><i class="fa fa-chevron-down"></i></td>
+            <a data-toggle="tooltip" data-placement="bottom" title="Register now and save $200"><td rowspan="2">UnCon<br><i class="fa fa-chevron-down"></i></td></a>
+            <td rowspan="2">Sugar Labs<br><i class="fa fa-chevron-down"></i></td>
+        </tr>
+        	<td class="label" style="border:none;">Time <i class="fa fa-chevron-down"></i>
+</td>
+        
+        <tr>
+        	<td class="date" colspan="1" style="border:none;background-color:#666;">JUNE 15</td>
+            <td style="background-color:#666;" colspan="8">&nbsp;</td>
+            </tr>
+        
+        <tr class="tr2">
+        	<td>1:00 <i class="fa fa-caret-right"></i> 1:45</td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">TBD</span><br> Transform Your Sales Organization with Smarter Sales Tools</td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">Sennheiser</span><br> Articulating the Value of CRM to Business Stakeholders</td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">Mazars</span><br> Cost Savings Using Sugar</td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">Mitsubishi, Audi or Quaker State</span><br> Setting Up A Data Model To Protect Customer Data in B2B2C models</td>
+            <td class="su"><i class="fa fa-cube  "></i><br>Sugar Roadmap Overview</td>
+            <td class="bf"><i class="fa fa-twitter"></i><br>Marketing And Sales Integration</td>
+            <td rowspan="4" class="uncon"><i class="fa fa-wrench"></i>UnCon</td>
+            <td rowspan="4" class="sugarlabs"><i class="fa fa-flask"></i>Sugar Labs</td>
+        </tr>
+        
+        <tr class="tr1">
+        	<td>1:55 <i class="fa fa-caret-right"></i> 2:40</td>
+            <td class="lb"><i class="fa fa-user "></i><br><span style="font-family:'HelveticaB';">Phil Winters</span><br>Customer Journey And Taking The Customer's Perspective</td>
+            <td class="lb"><i class="fa fa-user "></i><br><span style="font-family:'HelveticaB';">Mitch Liberman</span><br>Where Are You On The CRM Maturity Axis?</td>
+            <td class="cs"><i class="fa fa-asterisk "></i><br><span style="font-family:'HelveticaB';">Hilco, PostNord</span><br> Panel - Sales and Marketing Excellence</td>
+            <td class="cs"><i class="fa fa-asterisk "></i><br><span style="font-family:'HelveticaB';">Mitel</span><br> How We Deployed Sugar Forecasting to Sync With Our Distributors Forecast</td>
+            <td class="su"><i class="fa fa-cube  "></i><br>Mobile SDK Unveil</td>
+            <td class="bf"><i class="fa fa-twitter"></i><br>Financial & Insurance</td>
+        </tr>
+        
+        <tr class="tr2">
+        	<td>3:10 <i class="fa fa-caret-right"></i> 3:55</td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">TBD</span><br> The End Of Data Entry?</td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">IBM</span><br> Managing A Global CRM Rollout - Lessons Learned from IBM's Epic Deploymeny</td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">TBD</span><br></td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">JPMC</span><br>Create A Single Lens Of The Customer By Integrating Myriad Legacy Systems Through Sugar</td>
+            <td class="su"><i class="fa fa-cube  "></i><br>Five Awesome Things You Didn't Know You Could Do With Advanced Workflow</td>
+            <td class="bf"><i class="fa fa-twitter"></i><br>Manufacturing </td>
+        </tr>
+        
+        <tr class="tr1">
+        	<td>4:05 <i class="fa fa-caret-right"></i> 4:55</td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">Seguros Monterrey</span><br></td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">TBD</span><br></td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">Kroton</span><br></td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">Credit Suisse/JPMC/Meridian</span><br></td>
+            <td class="su"><i class="fa fa-cube  "></i><br>Moving Basic Workflow To Advanced Workflow - Best Practices Guide</td>
+            <td class="bf"><i class="fa fa-twitter"></i><br>Retail And B2C/B2B2C</td>
+        </tr>
+        
+        <tr>
+        	<td class="date" colspan="1" style="border:none;background-color:#666;">JUNE 16</td>
+            <td style="background-color:#666;" colspan="8">&nbsp;</td>
+        </tr>
+    
+        <tr class="tr2">
+        	<td>1:00 <i class="fa fa-caret-right"></i> 1:45</td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">JPMC</span><br> Transforming From Manual Processes With Advanced Workflow</td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">TBD</span><br></td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">Fordham</span><br></td>
+            <td class="cs"><i class="fa fa-asterisk "></i> <br><span style="font-family:'HelveticaB';">Unifin</span><br></td>
+            <td class="su"><i class="fa fa-cube  "></i><br>Best Practices in Mobile App Development</td>
+            <td class="bf"><i class="fa fa-twitter"></i><br>Customer Journey Management</td>
+            <td rowspan="3" class="uncon">&nbsp;</td>
+            <td rowspan="3" class="sugarlabs">&nbsp;</td>
+
+        </tr>
+        
+        <tr class="tr1">
+        	<td>1:55 <i class="fa fa-caret-right"></i> 2:40</td>
+            <td class="sp"><i class="fa fa-star "></i><br> Sponsor Session 1/8</td>
+            <td class="sp"><i class="fa fa-star "></i><br> Sponsor Session 3/8</td>
+            <td class="sp"><i class="fa fa-star "></i><br> Sponsor Session 5/8</td>
+            <td class="sp"><i class="fa fa-star "></i><br> Sponsor Session 7/8</td>
+            <td class="su"><i class="fa fa-cube  "></i><br>Integrating Sugar with Enterprise Systems</td>
+            <td class="bf"><i class="fa fa-twitter"></i><br>Transformative Customer</td>
+        </tr>
+        
+        <tr class="tr2">
+        	<td>3:10 <i class="fa fa-caret-right"></i> 3:55</td>
+            <td class="sp"><i class="fa fa-star "></i><br> Sponsor Session 2/8</td>
+            <td class="sp"><i class="fa fa-star "></i><br> Sponsor Session 4/8</td>
+            <td class="sp"><i class="fa fa-star "></i><br> Sponsor Session 6/8</td>
+            <td class="sp"><i class="fa fa-star "></i><br> Sponsor Session 8/8</td>
+            <td class="su"><i class="fa fa-cube  "></i><br>Roadmap Overview Encore</td>
+            <td class="bf"><i class="fa fa-twitter"></i><br>Driving CRM Adoption</td>
+        </tr>
+        
+<!--        <tr class="tr3">
+	        <td colspan="8">&nbsp;</td>
+        </tr>
+-->        <tr class="tr3">
+<td style="background-color:white;">&nbsp;</td>
+        	<td colspan="6"><br>
+            	<i class="fa fa-circle" style="color:#6DADD4"></i> = Customer Spotlight &nbsp;  &nbsp; 
+                <i class="fa fa-circle" style="color:#FFC772"></i> = Gold Sponsor Session &nbsp;   &nbsp; 
+                <i class="fa fa-circle" style="color:#FC4349"></i> = Sugar Session &nbsp;   &nbsp; 
+                <i class="fa fa-circle" style="color:#BADB99"></i> = sadfasd &nbsp;   &nbsp; 
+                <i class="fa fa-circle" style="color:#2C3E50"></i> = Birds of a Feather
+            </td>
+            <td colspan="2" style="background-color:white;">&nbsp;</td>
+            
+        </tr>
+        
+    </table>
+    
+</div>
+<!--END OF SESSIOS TABLE -->
+
+    <div id="tracks" class="set-why-attend-faq animated fadeIn">
       <!--ACCORDION BEGIN-->
       <div id="accordion">
   <h3><i class="fa fa-chevron-circle-right fw"></i> Transforming Client Engagement through Automation in Sugar
 </h3>
   <div>
     <img style="max-width:150px;float:left;padding-right:10px;" src="http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg">
-    <p><strong>Speaker:</strong> Alison Clack–Mazars UK</p>
+    <p><span style="font-family:'HelveticaB';">Speaker:</span> Alison Clack–Mazars UK</p>
     <p>As with most organisations a key focus for Mazars is relationships. Maintaining strong client relationships involves access to up to date information, documents, as well as tracking time and activities for billing. Mazars has leveraged back office integration and smart automation inside Sugar to make the process far more efficient, while improving billing accuracy. Learn from Alison Clack, Director of Business Transformation at Mazars UK, as she describes the business challenges the firm faces, and how automation in Sugar is providing efficiencies and cost savings in addition to enhanced user experiences. </p>
   </div>
 
@@ -396,7 +531,7 @@
 </h3>
   <div>
     <img style="max-width:150px;float:left;padding-right:10px;" src="http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg">
-        <p><strong>Speaker:</strong> Alison Clack–Mazars UK</p>
+        <p><span style="font-family:'HelveticaB';">Speaker:</span> Alison Clack–Mazars UK</p>
     <p>As with most organisations a key focus for Mazars is relationships. Maintaining strong client relationships involves access to up to date information, documents, as well as tracking time and activities for billing. Mazars has leveraged back office integration and smart automation inside Sugar to make the process far more efficient, while improving billing accuracy. Learn from Alison Clack, Director of Business Transformation at Mazars UK, as she describes the business challenges the firm faces, and how automation in Sugar is providing efficiencies and cost savings in addition to enhanced user experiences. </p>
 
   </div>
@@ -405,7 +540,7 @@
 </h3>
   <div>
         <img style="max-width:150px;float:left;padding-right:10px;" src="http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg">
-      <p><strong>Speaker:</strong> Alison Clack–Mazars UK</p>
+      <p><span style="font-family:'HelveticaB';">Speaker:</span> Alison Clack–Mazars UK</p>
     <p>As with most organisations a key focus for Mazars is relationships. Maintaining strong client relationships involves access to up to date information, documents, as well as tracking time and activities for billing. Mazars has leveraged back office integration and smart automation inside Sugar to make the process far more efficient, while improving billing accuracy. Learn from Alison Clack, Director of Business Transformation at Mazars UK, as she describes the business challenges the firm faces, and how automation in Sugar is providing efficiencies and cost savings in addition to enhanced user experiences. </p>
 
   </div>
@@ -414,7 +549,7 @@
 </h3>
   <div>
     <img style="max-width:150px;float:left;padding-right:10px;" src="http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg">
-        <p><strong>Speaker:</strong> Alison Clack–Mazars UK</p>
+        <p><span style="font-family:'HelveticaB';">Speaker:</span> Alison Clack–Mazars UK</p>
     <p>As with most organisations a key focus for Mazars is relationships. Maintaining strong client relationships involves access to up to date information, documents, as well as tracking time and activities for billing. Mazars has leveraged back office integration and smart automation inside Sugar to make the process far more efficient, while improving billing accuracy. Learn from Alison Clack, Director of Business Transformation at Mazars UK, as she describes the business challenges the firm faces, and how automation in Sugar is providing efficiencies and cost savings in addition to enhanced user experiences. </p>
 
   </div>
@@ -423,7 +558,7 @@
 </h3>
   <div>
     <img style="max-width:150px;float:left;padding-right:10px;" src="http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg">
-        <p><strong>Speaker:</strong> Alison Clack–Mazars UK</p>
+        <p><span style="font-family:'HelveticaB';">Speaker:</span> Alison Clack–Mazars UK</p>
     <p>As with most organisations a key focus for Mazars is relationships. Maintaining strong client relationships involves access to up to date information, documents, as well as tracking time and activities for billing. Mazars has leveraged back office integration and smart automation inside Sugar to make the process far more efficient, while improving billing accuracy. Learn from Alison Clack, Director of Business Transformation at Mazars UK, as she describes the business challenges the firm faces, and how automation in Sugar is providing efficiencies and cost savings in addition to enhanced user experiences. </p>
 
   </div>
@@ -432,7 +567,7 @@
 </h3>
   <div>
     <img style="max-width:150px;float:left;padding-right:10px;" src="http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg">
-        <p><strong>Speaker:</strong> Alison Clack–Mazars UK</p>
+        <p><span style="font-family:'HelveticaB';">Speaker:</span> Alison Clack–Mazars UK</p>
     <p>As with most organisations a key focus for Mazars is relationships. Maintaining strong client relationships involves access to up to date information, documents, as well as tracking time and activities for billing. Mazars has leveraged back office integration and smart automation inside Sugar to make the process far more efficient, while improving billing accuracy. Learn from Alison Clack, Director of Business Transformation at Mazars UK, as she describes the business challenges the firm faces, and how automation in Sugar is providing efficiencies and cost savings in addition to enhanced user experiences. </p>
 
   </div>
@@ -671,6 +806,12 @@ Become the go-to Sugar expert at your company.
 <script>
 	  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 	</script>
+    
+    <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
 
 </body>
 </html>
