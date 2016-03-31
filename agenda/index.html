@@ -52,44 +52,43 @@
 
 
   <!--accordion stuff-->
-
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
-
-  <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
-  <script>
-  $(function() {
-    $( "#accordion" ).accordion({
-      heightStyle: "content"
-    });
-  });
-
-  $(function() {
-    $( "#accordion" ).accordion({
-      collapsible: true
-    });
-  });
-
-  $(function() {
-    var icons = {
-      header: "ui-icon-circle-triangle-e",
-      activeHeader: "ui-icon-circle-triangle-s"
-    };
-    $( "#accordion" ).accordion({
-      icons: icons
-    });
-
-  });
-  </script>
-
-  <style>
-    #accordion {
-      width:100%;
-    }
+<style>
+  .accordion-toggle {
+  cursor: pointer;}
+  .accordion-content {
+  display: none;}
+  .accordion-content.default {
+  display: block;}
+  
+  #accordion{
+	  margin-left:0;
+	  width:100%;
+  }
+  
+  #accordion h4 {
+	  font-family:'HelveticaL';
+	  background-color:#49668F;
+	  color:white;
+	  font-size:12pt;
+	  padding: 5px;
+	  margin-bottom:10px;
+	  letter-spacing:.5px;
+	  border-radius:3px;
+  }
+  
+  #accordion div {
+  	margin-left:0;
+	width:100%;
+	margin-bottom:10px;
+  }
 
   </style>
 <!--/accordion stuff-->
+
+<!--LIGHTBOX-->
+
+		
+<!--/LIGHTBOX-->
 </head>
 
 
@@ -579,7 +578,7 @@
   </div>
 
 </div> <!--ACCORDION END-->
-		<h2>Track Descriptions</h2>
+		<h2 id="tracks" >Track Descriptions</h2>
       <h4 style="font-size:18px;font-family:'HelveticaUL'; padding:10px 0px 10px 10px; background-color:#333;color:white; letter-spacing:.5px;">
         Business Transformation
       </h4>
@@ -648,6 +647,12 @@
 
 		<h2 style="border-bottom:1px solid #333; padding-bottom:10px;margin-bottom:30px;">Featured Speakers & Sessions</h2>
 
+
+<a href="#" data-featherlight="#mylightbox">Open element in lightbox</a>
+<div id="mylightbox">This div will be opened in a lightbox</div>
+
+
+
         <div class="fss1">
             <img src="../images/fs1.jpg">
             <a data-toggle="tooltip" data-placement="bottom" title="As with most organisations a key focus for Mazars is relationships. Maintaining strong client relationships involves access to up to date information, documents, and of course effective service administration, tracking time and activities for billing. Even the process of onboarding new clients can be complex – but Mazars has leveraged back office integration and smart automation inside Sugar to make the process far more efficient, while also more quickly and accurately capturing billing information and invoicing clients. This way, Mazars can focus on their one common goal – to focus on the clients’ agendas and deliver value through a personal touch backed by big experience - not administration of tasks. Learn from Alison Clack, Director of Business Transformation at Mazars UK, as she describes the business challenges the firm faces, and how automation in Sugar is providing efficiencies and cost savings in addition to enhanced user experiences. Alison will also reveal how they are working at Mazars to ensure the internal users come to see Sugar as an indispensible tool and not just an administrative mandate."> <h3>Session: Transforming Client Engagement through Automation in Sugar </h3>
@@ -705,7 +710,36 @@
         </div>  <br><br>
 
         <h4 style="margin-top:30px;margin-bottom:30px;padding-bottom:10px;padding-top:50px;border-bottom:1px solid #333;clear:both;display:block;font-family:'HelveticaL';">Sugar In Depth Sessions</h4>
-        <a data-toggle="tooltip" data-placement="bottom" title="Want to learn about the next big thing in Sugar? Want to best align your development and CRM initiative to the core Sugar release cycle? Then this is a can’t-miss SugarCon session! SugarCRM’s VP of Product Management Samir Khosla will give an in-depth update on the Sugar roadmap including core applications and enhancements to the Sugar platform. See the future of Sugar first hand in this informative, interactive session. "><div class="sid">
+        
+        <div id="accordion">
+  <h4 class="accordion-toggle"><i class="fa fa-chevron-down fw"></i> Sugar Roadmap Overview</h4>
+  <div class="accordion-content default">
+    <p>Want to learn about the next big thing in Sugar? Want to best align your development and CRM initiative to the core Sugar release cycle? Then this is a can’t-miss SugarCon session! SugarCRM’s VP of Product Management Samir Khosla will give an in-depth update on the Sugar roadmap including core applications and enhancements to the Sugar platform. See the future of Sugar first hand in this informative, interactive session. </p>
+  </div>
+  <h4 class="accordion-toggle"><i class="fa fa-chevron-down fw"></i> Mobile SDK Unveil</h4>
+  <div class="accordion-content">
+    <p>The Sugar mobile platform is highly extensible and offers CRM users fast, always on access to their critical data on the go. However, that is only the beginning of Sugar’s mobile vision. By offering a software developer’s kit (SDK) for the Sugar platform, developers, Sugar partners and customers alike can unlock even more value out of Sugar’s mobile capabilities. From building fully custom, purpose-built CRM apps, to extending Sugar mobile into new usage areas – the mobile SDK will speed the rollout of these exciting new app experiences. This session will provide an overview of the SDK concept, and reveal some core components to help the Sugar ecosystem get started taking Sugar’s mobile platform in awesome new directions!</p>
+  </div>
+  <h4 class="accordion-toggle"><i class="fa fa-chevron-down fw"></i> Five Awesome Things You didn’t Know You Could do with Advanced Workflow</h4>
+  <div class="accordion-content">
+    <p>Are you using the Advanced Workflow features in Sugar Enterprise? Are you a Professional user and considering an upgrade to take advantage of the new workflow and business rules capabilities? This session will explore how to generate even more value out of these powerful workflow features. With some illustrative examples and tips and tricks, this is a magnificent chance for Sugar users and admins to see how Advanced Workflow can simplify and optimize key customer facing processes across any organization. .</p>
+  </div>
+  <h4 class="accordion-toggle"><i class="fa fa-chevron-down fw"></i> Moving Basic Workflows to Advanced Workflows – A Best Practices Guide </h4>
+  <div class="accordion-content">
+    <p>The Advanced Workflow capabilities in Sugar Enterprise can help reduce the number of workflows in a Sugar instance, streamlining and optimizing the management of even the most complex workflows. If you’ve already built workflows with Sugar Basic Workflow – fret not! This informative session will outline the best practices for quickly and effectively migrating from Basic to Advanced Workflow. After this session, any Sugar admin or developer will be able to quickly get started reinvigorating their workflows inside the Advanced Workflow module. </p>
+  </div>
+  <h4 class="accordion-toggle"><i class="fa fa-chevron-down fw"></i> Best Practices in Mobile App Development</h4>
+  <div class="accordion-content">
+    <p>SugarCRM Mobile is a highly robust mobile platform, and not simply limited to the core out of the box apps. Developing custom mobile applications can be as simple as clicking a checkbox, or involve jumping into custom code. When building mobile apps, there are a few key design and development concepts that can help insure greater usability and upgradability for even the most custom apps. This session will give a quick overview of how SugarCRM Mobile allows for customization – and give even the most seasoned mobile developer some tips towards building mobile CRM apps every user will love. </p>
+  </div>
+  <h4 class="accordion-toggle"><i class="fa fa-chevron-down fw"></i> Integrating Sugar with Enterprise Systems </h4>
+  <div class="accordion-content">
+    <p>The Sugar platform includes open, powerful APIs that enable integration with myriad applications and systems. This includes large legacy and other enterprise data systems – helping create more informative, intelligent Sugar user experiences. This session will outline the latest and greatest surrounding the Sugar API set, and give some highly useful illustrations and examples of enterprise-class integration scenarios. This is a can’t miss for anyone looking to build a more integrated, expansive customer view in Sugar. </p>
+  </div>
+</div>
+
+
+<!--        <a data-toggle="tooltip" data-placement="bottom" title="Want to learn about the next big thing in Sugar? Want to best align your development and CRM initiative to the core Sugar release cycle? Then this is a can’t-miss SugarCon session! SugarCRM’s VP of Product Management Samir Khosla will give an in-depth update on the Sugar roadmap including core applications and enhancements to the Sugar platform. See the future of Sugar first hand in this informative, interactive session. "><div class="sid">
          <p>Sugar Roadmap Overview</p>
         </div></a>
         <a data-toggle="tooltip" data-placement="bottom" title="The Sugar mobile platform is highly extensible and offers CRM users fast, always on access to their critical data on the go. However, that is only the beginning of Sugar’s mobile vision. By offering a software developer’s kit (SDK) for the Sugar platform, developers, Sugar partners and customers alike can unlock even more value out of Sugar’s mobile capabilities. From building fully custom, purpose-built CRM apps, to extending Sugar mobile into new usage areas – the mobile SDK will speed the rollout of these exciting new app experiences. This session will provide an overview of the SDK concept, and reveal some core components to help the Sugar ecosystem get started taking Sugar’s mobile platform in awesome new directions!"><div class="sid">
@@ -723,7 +757,8 @@
         <a data-toggle="tooltip" data-placement="bottom" title="The Sugar platform includes open, powerful APIs that enable integration with myriad applications and systems. This includes large legacy and other enterprise data systems – helping create more informative, intelligent Sugar user experiences. This session will outline the latest and greatest surrounding the Sugar API set, and give some highly useful illustrations and examples of enterprise-class integration scenarios. This is a can’t miss for anyone looking to build a more integrated, expansive customer view in Sugar. "><div style="margin-bottom:50px;" class="sid">
         <p>Integrating Sugar with Enterprise Systems</p>
         </div></a>
-    </div>
+-->    
+</div>
   </div>
 
 
@@ -911,23 +946,28 @@ Become the go-to Sugar expert at your company.
               <div class="twidget"><a href="https://twitter.com/search?q=%23SugarCon" data-widget-id="429394035891896320" data-chrome="nofooter noborders noscrollbar" class="twitter-timeline">Tweets about #SugarCon</a></div>
 
     </div>
-  </div>
+  </div> 
+        
 </footer>
+
+
+<!--simple accordion-->
 <script type="text/javascript">
-  jQuery(function($){
-    $( '.menu-btn' ).click(function(){
-      $('.responsive-menu').toggleClass('expand')
-    })
-  })
-</script>
-<script>
-	  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-	</script>
-    <script type="text/javascript">
-  $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
+  $(document).ready(function($) {
+    $('#accordion').find('.accordion-toggle').click(function(){
+
+      //Expand or collapse this panel
+      $(this).next().slideToggle('fast');
+
+      //Hide the other panels
+      $(".accordion-content").not($(this).next()).slideUp('fast');
+
+    });
   });
-</script>
+</script><!--/end simple accordion-->
+
+<!--lightbox-->
+
 
 
 </body>
