@@ -875,6 +875,78 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
     NAVBAR
 ------------------------*/
 
+.fss1, .fss2 {
+	width:48%;
+	float:left;
+	overflow:hidden;
+	margin-bottom:20px;
+	display:inline-block;
+}
+
+.fss1 {
+	clear:left;
+	margin-right:4%;
+}
+
+.fss1 h3, .fss2 h3{
+	font-family:'HelveticaB';
+	font-size:10pt;
+	display:inline;
+	letter-spacing:normal;
+	border:none;
+	padding-bottom:10px;
+}
+
+
+.fss1 img, .fss2 img{
+	padding:0;
+	margin:0;
+	float:left;
+	padding-right:20px;
+	max-height:100px;
+}
+
+.sid {
+	width:27%;
+	background-color:#33495f;
+	overflow:hidden;
+	float:left;
+	margin:0 2%;
+	min-height:80px;
+	margin-bottom:20px;
+	color:white;
+	font-family:'HelveticaB';
+	text-align:center;
+	padding:1%;
+	border-radius:5px;
+}
+
+.sid p {
+	vertical-align:middle;
+	cursor:default;
+}
+
+.sid {
+	cursor:default;
+}
+
+.sid p:hover {
+	cursor:default;
+}
+.sid:hover {
+	background-color:#466482;
+	cursor:default;
+}
+
+.sid:nth-child(3) {
+	margin-right:0;
+}
+
+.sid:nth-child(6) {
+	margin-right:0;
+}
+
+
 .set-nav li {
   color: #CCC;
   display: inline;
@@ -1004,10 +1076,6 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
     OTHER ELEMENTS - BUTTONS, FONT AWESOME
 ------------------------*/
 
-.fa-bullhorn, .fa-newspaper-o, .fa-commenting, .fa-magic {
-  float:left;
-  float:left;
-}
 
 .full-travel-venue iframe {
   margin-bottom: 50px;
@@ -1750,6 +1818,14 @@ padding-top:-20px;
 }
 
 @media screen and (max-width: 1300px) {
+	.fss1, .fss2 {
+	width:100%;
+	float:none;
+	overflow:hidden;
+	margin-bottom:20px;
+	display:block;
+}
+
   .full-hero-faq .ghost-btn-white {
     padding: 10px;
     margin: 0 10px;
