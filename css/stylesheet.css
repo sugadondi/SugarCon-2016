@@ -172,6 +172,15 @@ p {
   line-height: 16pt;
 }
 
+.set-why-attend-faq h4 {
+	font-size: 18px;
+    font-family: 'HelveticaUL';
+    padding: 10px 0px 10px 10px;
+    background-color: #333;
+    color: white;
+    letter-spacing: .5px;
+}
+
 body > section > div.full-why-attend.animated.fadeIn > div > h4 {
   padding-bottom: 5px;
   padding-top: 30px;
@@ -359,7 +368,7 @@ footer .footer-col:nth-child(3) {
   text-align: center;
   overflow: hidden;
   padding-top:200px;
-  padding-bottom:200px;
+  width:100vw;
 }
 
 
@@ -499,7 +508,7 @@ section div {
   display: block;
 }
 
-section div div, .set-footer, .video-container .set-hero {
+section div div:not(.set-social), .set-footer, .video-container .set-hero {
   width: 75%;
   margin: auto;
   max-width: 1120px;
@@ -510,7 +519,7 @@ body > section > div.full-why-attend > div > div.set-why-attend-2 > div{
 }
 
 .set-social {
-	max-width:100%;
+	max-width:100vw;
 }
 
 .set-social div.x2 {
@@ -519,13 +528,62 @@ body > section > div.full-why-attend > div > div.set-why-attend-2 > div{
 	background-color:#111;
 	color:#aaa;
 	overflow:hidden;
+	
+}
+
+.set-social .social1 {
+	text-align:left;
+}
+
+.set-social .social2 iframe {
+	margin-top:30px;
+	width:560px;
+	height:315px; 
+	max-width:100%; 
 }
 
 .set-social .social1, .set-social .social2 {
-	width:560px;
-	padding:20px 10px;
+	width:48%;
+	max-width:560px;
+	padding:20px 1%;
 	float:left;
 }
+
+.social ul li{
+	text-align:left;
+}
+
+
+@media screen and (max-width: 1200px) {
+	
+	.full-social, .set-social {
+		margin-right:0;
+		width:100vw;
+	}
+	
+	.full-social h2 {
+		padding:40px 10px;
+		font-size:36px;
+		margin-top:50px;
+	}
+	
+	.set-social .social1, .set-social .social2 {
+	width:100%;
+	max-width:800px;
+	float:none;
+	display:block;
+}
+
+.set-social .social1 {
+	text-align:Center;
+}
+
+.set-social .social1 div {
+	text-align:left;
+	max-width:500px;
+}
+}
+
 
 .set-nav {
   width: 75%;
@@ -1887,23 +1945,23 @@ padding-top:-20px;
   }
 
   .set-nav .uldiv {/* Navigation menu column*/
-    text-align: right;
+    text-align: center;
     display: inline-block;
-    width: 75%;
+    width: 77%;
     margin-top: 35px;
     float: right;
   }
 
   .set-nav li {
     padding: 0 1%;
-    font-size: 10px;
+    font-size: 9px;
     letter-spacing: 2px;
   }
 
   .set-nav li a.showontablet {
     color: #7CB342;
-    font-size: 10px;
-    padding: 5px 10px;
+    font-size: 9px;
+    padding: 5px 4px;
   }/*
     .set-nav li a.showontablet:hover {
         color:#7CB342;
@@ -1916,14 +1974,14 @@ padding-top:-20px;
     background: #7CB342;
     color: white;
     border: 2px solid #7CB342;
-    padding: 5px 10px;
+    padding: 5px 4px;
   }
 
   .set-nav li a.showontablet:active {
     background-color: #7CB342;
     color: white;
-    font-size: 10px;
-    padding: 5px 10px;
+    font-size: 9px;
+    padding: 5px 4px;
   }
 
   .set-nav .logodiv img {
