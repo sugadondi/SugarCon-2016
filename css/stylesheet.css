@@ -508,7 +508,16 @@ section div {
   display: block;
 }
 
-section div div:not(.set-social), .set-footer, .video-container .set-hero {
+/* ----this is breaking the agenda layout----
+
+section div div:not(.set-social){
+	  width: 75%;
+  margin: auto;
+  max-width: 1120px;
+}
+*/
+
+section div div, .set-footer, .video-container .set-hero {
   width: 75%;
   margin: auto;
   max-width: 1120px;
@@ -935,16 +944,18 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 ------------------------*/
 
 .fss1, .fss2 {
-	width:48%;
-	float:left;
 	overflow:hidden;
-	margin-bottom:20px;
-	display:inline-block;
+	margin-bottom:40px;
 }
 
 .fss1 {
+	width:30%;
+	float:left;
 	clear:left;
-	margin-right:4%;
+}
+
+.fss2 {
+	width:67%;
 }
 
 .fss1 h3, .fss2 h3{
