@@ -85,6 +85,20 @@ a {
   text-decoration: none;
 }
 
+a.upload {
+	color:#2088D7;
+	font-family:'HelveticaB';
+	margin-top:50px;
+	padding-bottom:.5px;
+	border-bottom:2px solid #2088d7;
+	font-size:13pt;
+}
+
+a.upload:hover {
+	color:#FFFFFF;
+	border-bottom:2px solid #ffffff;
+}
+
 body {
   font-family: Helvetica Neue;
   color: #333;
