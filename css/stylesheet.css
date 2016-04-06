@@ -894,8 +894,16 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 
 .gold-sponsors img {
   max-width: 300px;
-  margin: auto;
+  width:30%;
   padding: 40px 0;
+}
+
+.g1 {
+	margin-right:25px;
+}
+
+.g2 {
+	margin-left:25px;
 }
 
 .silver-sponsors a img.s1 {
