@@ -1356,14 +1356,14 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 
 }
 
-/*.fa-star {
+.sp .fa-star {
 	color:transparent;
 	background-color:#FFC772;
 	display:block;
 	padding:5px;
 		font-size:1pt;
 
-}*/
+}
 
 .fa-user {
 	color:transparent;
