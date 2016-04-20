@@ -957,6 +957,27 @@ body > section > div.full-why-attend > div > div.set-why-attend-2 > div{
   font-weight: bold;
 }
 
+
+.wa {
+	display:inline;
+	float:left;
+	width:20%;
+	padding:2%;
+	color:#333;
+	line-height:16pt;
+}
+
+.wa img {
+	max-width:100%;
+	max-height:150px;
+	margin-bottom:20px;
+}
+
+.whyattendlogos img {
+	vertical-align:middle;
+	padding:30px 10px;
+	max-width:150px;
+}
 /*------------------------
     IMAGES_
 ------------------------*/
