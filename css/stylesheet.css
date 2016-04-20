@@ -778,6 +778,24 @@ body > section > div.full-why-attend > div > div.set-why-attend-2 > div{
     SMALLER DIVS
 ------------------------*/
 
+.ip {
+	
+	width:50%;
+	float:left;	
+	margin:0;
+}
+
+.ip div {
+	
+	width:47%;
+	margin:0 1%;
+	float:left;
+	text-align:center;
+}
+
+.ip div img {
+	width:50%;
+}
 
 .trainingdiv {
   float:left;
