@@ -308,5 +308,4 @@ DirectoryIndex index.min.html index.html
   RedirectMatch 301 ^/venue.html(.*) http://sugarcon.sugarcrm.com/venue/
 </IfModule>
 
-ModPagespeed on
-
+# ModPagespeed on
