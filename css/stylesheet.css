@@ -1583,8 +1583,9 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 }*/
 
 .sessionsdiv {
-	overflow-y:hidden;
-	overflow-x:scroll;
+	// overflow-y:hidden;
+	// overflow-x:scroll;
+  overflow:hidden;
 	width:100%;
 }
 
