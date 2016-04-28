@@ -531,15 +531,6 @@ section div {
   display: block;
 }
 
-/* ----this is breaking the agenda layout----
-
-section div div:not(.set-social){
-	  width: 75%;
-  margin: auto;
-  max-width: 1120px;
-}
-*/
-
 section div div, .set-footer, .video-container .set-hero {
   width: 75%;
   margin: auto;
@@ -602,6 +593,7 @@ body > section > div.full-why-attend > div > div.set-why-attend-2 > div{
 	
 }
 
+
 .set-labs .labs2 iframe, .set-labs .labs1 iframe {
 	margin-top:30px;
 	width:560px;
@@ -617,6 +609,24 @@ body > section > div.full-why-attend > div > div.set-why-attend-2 > div{
 
 .labs ul li{
 	text-align:left;
+}
+
+.labscontainer .labs1 {
+	width:40%;
+	float:left;
+}
+
+.labscontainer .labs2 {
+	width:52%;
+	float:right;
+	text-align:left;
+	color:#333;
+	
+}
+
+.labscontainer .labs2 p {
+	font-size:10pt;
+	line-height:12pt;
 }
 
 @media screen and (max-width: 1200px) {
